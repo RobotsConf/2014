@@ -75,7 +75,7 @@ body { font-family: 'Monda', sans-serif;  font-size: 0.9em; margin: 0px; padding
 	padding-top:4px;
 	padding-bottom:20px;
 }
-
+.container li {color:#ff5200;}
 #right {  margin-left:228px; width: 756px;}
 #left a.brand { display: block; margin: 0px; padding: 0px; height: 170px;}
 #left hr { display: none;}
@@ -200,7 +200,7 @@ em { font-style: normal; color: #ff5200; font-weight: bold;}
 #get-me-there { background: #ffe13c; text-decoration: underline; color:#4e4e70; text-decoration:none;  font-weight: 700; padding: 8px; text-align: center; display:block; font-weight: bold; font-size: 20px;}
 .yellow-link a:hover, #get-me-there:hover { background: black; color:white;}
 
-body h3.yellow-link a {  padding: 4px 24px; }
+body h3.yellow-link a {  padding: 4px 24px 4px 24px; margin-bottom:20px;}
 a#rtt { position: fixed; bottom: 12px; right: 12px; display: block; font-size: 12px;background: #ffe13c; text-decoration: none; color:#3c1f0a; padding: 4px;}
 
 
@@ -376,14 +376,16 @@ body .speaker.hover {background-position: 15px -136px !important;  }
   .carousel-caption p {
 	font-size: 16px;
   }
+  h3.yellow-link a {font-size:18px;}
 }
 @media screen and (max-width: 991px) and (min-width: 767px) {
  	.nav>li>a{
 	  	/*font-size: 85%; padding: 3px;}*/
 	}
 }
-
-
+@media screen and (max-width: 470px) {
+    h3.yellow-link a {font-size:18px;}
+}
 
 .team { margin: 24px 0px;}
 .team .name { font-weight: bold; font-size:150%;}
