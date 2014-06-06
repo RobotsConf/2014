@@ -1,0 +1,35 @@
+---
+layout: default
+title: "RobotsConf Speakers and Workshop Guides"
+id: speakers
+---
+<div class="container">
+{% for speaker in site.data.speakers %}
+{% if speaker.visible %}
+<div class='col-md-12'>
+<div class='speaker clearfix' id='{{speaker.lastname | downcase}}'>
+  <div class='pull-right socialmedia'>
+  {% if speaker.smurl %}
+    <a href='{{speaker.smurl}}' class='{{speaker.smtype}}'>
+      <i class='fa fa-{{speaker.smtype}}-square'></i>
+      {{speaker.smhandle}}
+    </a>
+  {% endif %}
+  </div>
+  <div class='pic'><img src='/img/speakers/{{speaker.lastname | downcase}}.jpg' alt='{{speaker.firstname}} {{speaker.lastname}}'/></div>
+  <div class='name'>
+    <h3>{{speaker.firstname}} {{speaker.lastname}}</h3>
+  </div>
+  <div class='talk'>
+    <div class='title'>{{speaker.title}}</div>
+    {{speaker.body | markdownify}}
+  </div>
+  <div class='bio'>
+    <div class='title'>Meet {{speaker.firstname}}</div>
+    {{speaker.bio | markdownify}}
+  </div>
+</div>
+</div>
+{% endif %}
+{% endfor %}
+</div>

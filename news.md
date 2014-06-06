@@ -4,8 +4,8 @@ title: "News Center"
 id: news
 ---
 
-
-# News
+<div class='container'>
+<h1>News</h1>
 
 ## [RobotsConf Tickets Now On Sale](/pages/how-to-ticket.html)
 

@@ -1,0 +1,9 @@
+
+- name: Kenderson
+  visible: false
+  short: kenderson
+  logo: kenderson.png
+  url: http://www.kenderson.com
+  event: WhichEvent
+  description: >
+    Sponsor description here.
