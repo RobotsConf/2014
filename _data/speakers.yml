@@ -1,0 +1,12 @@
+
+- firstname: Chris
+  lastname: Williams
+  visible: false
+  smurl: http://twitter.com/voodootikigod
+  smtype: twitter
+  smhandle: "voodootikigod"
+  title: Awesome Talk Example
+  body: >
+    Talk body here!
+  bio: >
+    Speaker bio here!
