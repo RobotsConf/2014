@@ -358,6 +358,8 @@ body .speaker.hover {background-position: 15px -136px !important;  }
 }
 .navbar-inverse .navbar-nav>li.inactive>a, .navbar-inverse .navbar-nav>li.inactive>a:hover { color: #ff5200;}
 
+.video-frame {padding:4px;border:1px solid #ddd;border-radius:4px;-webkit-transition:all .2s ease-in-out;transition:all .2s ease-in-out;}
+
 @media screen and (max-width: 1200px) and (min-width: 768px) {
   .navbar-brand img {
     width: 125px;
