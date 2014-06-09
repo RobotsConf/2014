@@ -151,13 +151,14 @@ $(function () {
         cache: true,
         jsonpCallback: 'setWeather'
     });
-    $(".speaker").hover(function () {
-    	$(this).addClass("hover");
-    }, function () {
-    	$(this).removeClass("hover");
-    })
-	$('.carousel').carousel({
-	  interval: 3000,
-	})
-
+    // $(".speaker").hover(function () {
+    // 	$(this).addClass("hover");
+    // }, function () {
+    // 	$(this).removeClass("hover");
+    // })
+	if (document.documentElement.clientWidth > 480) {
+		$('.carousel').carousel({
+		  interval: 3000,
+		})
+	}
 });
