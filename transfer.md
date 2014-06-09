@@ -5,7 +5,7 @@ id: transfer
 ---
 
 
-# How to Transfer a RobotsConf 2013 Ticket
+# How to Transfer a RobotsConf 2014 Ticket
 
 RobotsConf tickets may not be refunded, but they may be transferred to other individuals. Individuals who have tickets may tranfer those tickets to other individuals, but both parties are responsibile for:
 
