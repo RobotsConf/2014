@@ -347,6 +347,22 @@ body .speaker.hover {background-position: 15px -136px !important;  }
 }
 .navbar-inverse .navbar-nav>li.inactive>a, .navbar-inverse .navbar-nav>li.inactive>a:hover { color: #ff5200;}
 
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+	}
+/*Responsive Video CSS from: http://avexdesigns.com/responsive-youtube-embed/*/
+
 .video-frame {padding:4px;border:1px solid #ddd;border-radius:4px;-webkit-transition:all .2s ease-in-out;transition:all .2s ease-in-out;}
 
 @media screen and (max-width: 1200px) and (min-width: 768px) {
