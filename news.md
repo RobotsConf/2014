@@ -4,9 +4,9 @@ title: "News Center"
 id: news
 ---
 <div class='container'>
+	<h1 class="featurette-heading mtop">News</h1>
 	<div class='row'>
 		<div class='col-md-12'>
-			<h1>News</h1>
 		</div>
 		{% for news in site.data.news %}
 		{% if news.visible %}
