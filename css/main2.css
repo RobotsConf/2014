@@ -398,3 +398,8 @@ body .speaker.hover {background-position: 15px -136px !important;  }
 .team .name { font-weight: bold; font-size:150%;}
 .team .name { font-weight: bold;}
 .team .builtwith i { margin-left: 24px;}
+
+.news-entry .posted {
+	font-style: italic;
+	margin-bottom: 6px;
+}
