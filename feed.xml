@@ -1,0 +1,23 @@
+---
+layout: none
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ site.name | xml_escape }}</title>
+    <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
+    <link>{{ site.url }}</link>
+    <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
+    {% for article in site.data.news  %}
+    {% if article.visible %}
+      <item>
+        <title>{{ article.title | xml_escape }}</title>
+        <description>{{ article.description | markdownify | xml_escape }}</description>
+        <pubDate>{{ article.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+        <link>{{ site.url }}{{ article.url }}</link>
+        <guid isPermaLink="true">{{ site.url }}{{ article.url }}</guid>
+      </item>
+    {% endif %}
+    {% endfor %}
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+---
+layout: default
+title: "News Center"
+id: news
+---
+<div class='container'>
+	<h1 class="featurette-heading mtop">News</h1>
+	<div class='row'>
+		<div class='col-md-12'>
+		</div>
+		{% for article in site.data.news %}
+		{% if article.visible %}
+		<div class='col-md-12'>
+			<div class='news-entry'>
+	    	<h2 class='title'><a href="{{article.url}}">{{article.title}}</a></h2>
+	    	<div class='posted'>Posted: {{ article.date | date: "%d %b %Y" }}</div>
+	    	<div class='description'>{{article.description | markdownify}}</div>
+	    	<div class='readmore'><a href="{{article.url}}">Read More...</a></div>
+			</div>
+		</div>
+		{% endif %}
+		{% endfor %}
+	</div>
+</div>
