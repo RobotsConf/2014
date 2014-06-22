@@ -1,10 +1,17 @@
+- title: RobotsConf for Kids!!!
+  visible: true
+  date: "2014-06-23 14:22:21 -0400"
+  url: "/how-to-ticket.html"
+  description: >
+    <img class="img-thumbnail pull-right hidden-sm hidden-xs" width="20%" src="/img/robots2013_iancole_18.jpg" alt="Sylvia Todd was totally rocking the conference!"/> What's more exciting than a room full of the latest hardware and hackers to help you figure out how to use that hardware to take over the  world?? Easy - empowering the next generation (and younger) of developers and hardware hackers to join in on the fun. During RobotsConf 2013, we had a few rockstar kids show up and totally steal the show (<a href="http://sylviashow.com/">Sylvia Todd</a>). So for 2014 we wanted to formalize it and incentivize the younger generations. With that said, <a href="/how-to-ticket.html">check out</a> the new kids tickets.
+
 
 - title: RobotsConf 2013 Interviews
-  visible: false
-  date: "2014-06-02 08:22:21 -0400"
-  url: "/interviews.html"
+  visible: true
+  date: "2014-06-23 12:22:21 -0400"
+  url: "https://www.youtube.com/playlist?list=PLAHwRHEbVmP7PIfunFRS0Dpo2DnItNfsE"
   description: >
-    RobotsConf 2013 was so ab
+    <iframe style="margin-left:30px;" class="pull-right hidden-xs" width="40%" height="270px" src="//www.youtube.com/embed/Z4Iie6WXTMI" frameborder="0" allowfullscreen></iframe> RobotsConf 2013 was full of <b>great</b> things which were driven and supported by <b>great</b> people. Below are a few interviews from some of those people. Did these inspire you to <a href="https://docs.google.com/forms/d/1FTToW-_m-4ZcwB9Kkxtlep9-aaPu105mYk7jYdsH_Nw/viewform">run a workshop</a>, <a href="https://docs.google.com/forms/d/1FTToW-_m-4ZcwB9Kkxtlep9-aaPu105mYk7jYdsH_Nw/viewform">speak</a>, or <a href="https://docs.google.com/forms/d/1H6_1aFjuh2-pJtH3bwWx7JwERxOtDhaI-aBVS2K-7sw/viewform">sponsor</a> at RobotsConf 2014? <ul><li><a href="http://youtu.be/UXYck0JNvkA">Interview with Zachary Slater & Alan Davis</a></li><li><a href="http://youtu.be/7Uxa6_tMIYc">Interview with Zach Supalla</a></li><li><a href="http://youtu.be/299cKMPAOJY">Interview with Suz Hinton</a></li><li><a href="http://youtu.be/69Ov3SUxJX8">Interview with Sahar Malekzandi</a></li><li><a href="http://youtu.be/e6bealqSSaw">Interview with Pawel Szymczykowski</a></li><li><a href="http://youtu.be/KO_WWebEmLU">Interview with Matthew Podwysocki</a></li><li><a href="http://youtu.be/AgynDwkVSNQ">Interview with Julian Cheal</a></li><li><a href="http://youtu.be/B_OAZwinbig">Interview with James & Sylvia Todd</a></li><li><a href="http://youtu.be/Z4Iie6WXTMI">Interview with Chris Williams</a></li></ul>
 
 - title: RobotsConf Tickets Now On Sale
   visible: true
