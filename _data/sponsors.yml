@@ -17,21 +17,13 @@
   url: http://electricimp.com
   event:
   description: >
-    Electric Imp provides an innovative and powerful service platform that
-    makes it simple to connect devices to the Internet. The company’s proven
-    WiFi-enabled solution - featuring fully integrated hardware, software, OS,
-    APIs and cloud services - dramatically decreases cost and time to market.
-    The Electric Imp platform is reliable and secure, empowering businesses and
-    developers to deploy, manage and quickly scale their connected products and
-    services to millions of users.
-
-
-    To learn more about the Electric Imp platform and solution, please visit
-    our product page.
-
-
-    Electric Imp, founded in 2011, is located in Los Altos, California and
-    Cambridge, England, and funded by Redpoint Ventures and Lowercase Capital.
+    Electric Imp provides an innovative and powerful service platform that makes
+    it simple to connect devices to the Internet. Our proven WiFi-enabled
+    solution - featuring fully integrated hardware, software, OS, APIs and cloud
+    services - dramatically decreases cost and time to market. The Electric Imp
+    platform is reliable and secure, empowering businesses and developers to
+    deploy, manage and quickly scale their connected products and services to
+    millions of users.
 
 - name: GitHub
   visible: true
