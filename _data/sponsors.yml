@@ -72,3 +72,14 @@
     Pinoccio is a wireless, web-ready microcontroller with WiFi, LiPo battery,
     and built-in radio. It’s also an API to get your board talking to the Web
     right out of the box.
+
+- name: Technical Machine
+  visible: true
+  short: tessel
+  logo: tessel.png
+  url: http://www.tessel.io
+  event:
+  description: >
+    Tessel is a microcontroller that runs JavaScript. It's Node-compatible and
+    ships with Wifi built in. With plug-and-play sensor and actuator modules
+    and access to internet APIs, Tessel is hardware built for web developers.
