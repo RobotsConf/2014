@@ -1,9 +1,77 @@
-
-- name: Kenderson
-  visible: false
-  short: kenderson
-  logo: kenderson.png
-  url: http://www.kenderson.com
-  event: WhichEvent
+- name: Bitcraze
+  visible: true
+  short: bitcraze
+  logo: bitcraze.png
+  url: http://www.bitcraze.se
+  event:
   description: >
-    Sponsor description here.
+    Bitcraze AB was created in 2011 by the designers of the Crazyflie
+    quadcopter. The purpose of the company is to finance the development and
+    manufacturing of a Crazyflie kit and to make it available as an opensource
+    development platform.
+
+- name: Electric Imp
+  visible: true
+  short: electricimp
+  logo: electricimp.png
+  url: http://electricimp.com
+  event:
+  description: >
+    Electric Imp provides an innovative and powerful service platform that makes
+    it simple to connect devices to the Internet. Our proven WiFi-enabled
+    solution - featuring fully integrated hardware, software, OS, APIs and cloud
+    services - dramatically decreases cost and time to market. The Electric Imp
+    platform is reliable and secure, empowering businesses and developers to
+    deploy, manage and quickly scale their connected products and services to
+    millions of users.
+
+- name: GitHub
+  visible: true
+  short: github
+  logo: github.png
+  url: http://www.github.com
+  event:
+  description: >
+    GitHub is the best way to build software together. Whether it's your
+    company's app, your favorite open source library, or a weekend side project,
+    GitHub helps everyone work better by providing tools for easier
+    collaboration and code sharing on any device. Start collaborating today—open
+    source project hosting is free!
+
+- name: Microsoft
+  visible: true
+  short: microsoft
+  logo: microsoft.png
+  url: http://www.microsoft.com
+  event:
+  description: >
+    Founded in 1975, Microsoft is the worldwide leader in software, services
+    and solutions that help people and businesses realize their full potential.
+
+- name: Pinoccio
+  visible: true
+  short: pinoccio
+  logo: pinoccio.png
+  url: https://pinocc.io
+  event:
+  description: >
+    Pinoccio is a complete ecosystem for the Internet of Things.
+
+
+    When we say “complete ecosystem” we mean that it is both hardware and
+    software, built together with the goal of helping you create a web-enabled
+    DIY project as quickly and as easily as possible. On the hardware side,
+    Pinoccio is a wireless, web-ready microcontroller with WiFi, LiPo battery,
+    and built-in radio. It’s also an API to get your board talking to the Web
+    right out of the box.
+
+- name: Technical Machine
+  visible: true
+  short: tessel
+  logo: tessel.png
+  url: http://www.tessel.io
+  event:
+  description: >
+    Tessel is a microcontroller that runs JavaScript. It's Node-compatible and
+    ships with Wifi built in. With plug-and-play sensor and actuator modules
+    and access to internet APIs, Tessel is hardware built for web developers.
