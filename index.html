@@ -144,84 +144,28 @@ id: register
       <!-- <hr class="featurette-divider"> -->
 
       <!-- /END THE FEATURETTES -->
+      <hr class="featurette-divider">
+<div class="row featurette">
+    <h2 class="featurette-heading " style="text-align: center">Sponsored By These Amazing Companies</h2>
+  <div id='sponsors'>
+      <div class='clearfix'>
+
+        {% for sponsor in site.data.sponsors %}
+          {%if sponsor.visible %}
+            <a class="sponsor-block" href="/sponsors.html#{{ sponsor.short }}" id="{{ sponsor.short }}">
+              {{ sponsor.name }}
+            </a>
+          {% endif %}
+        {% endfor %}
+
+      </div>
+
+    <p style="text-align: center"><a href="/sponsors.html">See the details about our amazing sponsors</a></p>
+  </div>
+</div>
 
     </div><!-- /.container marketing -->
 
-<!-- <div class="row featurette">
-    <h2 class="featurette-heading " style="text-align: center">Sponsored By These Amazing Companies</h2>
-	<div id='sponsors'>
-	    <div class='clearfix'>
-	    <a class="sponsor-block" href="/sponsors.html#github" id="github">
-				GitHub
-			</a>
-	    <a class="sponsor-block" href="/sponsors.html#msi" id="msi">
-	      Microsoft Institute for Advanced Technology in Governments
-	    </a>
-
-	    <a class="sponsor-block" href="/sponsors.html#bloomberg" id="bloomberg">
-	      Bloomberg
-	    </a>
-
-	    <a class="sponsor-block" href="/sponsors.html#makergarage" id="makergarage">
-	      MakerGarage
-	    </a>
-
-	    <a class="sponsor-block" href="/sponsors.html#heroku" id="heroku">
-	      Heroku
-	    </a>
-	    <a class="sponsor-block" href="/sponsors.html#leapmotion" id="leapmotion">
-	      Leap Motion
-	    </a>
-	    <a class="sponsor-block" href="/sponsors.html#sparkdevices" id="sparkdevices">
-	      Spark Devices
-	    </a>
-	    <a class='sponsor-block' href="/sponsors.html#hybridgroup" id='hybridgroup'>
-	      The Hybrid Group
-	    </a>
-	    <a class='sponsor-block' href="/sponsors.html#rackspace" id='rackspace'>
-	      Rackspace
-	    </a>
-	    <a class="sponsor-block" href="/sponsors.html#make" id="make">
-	      Make:
-	    </a>
-	    <a class="sponsor-block" href="/sponsors.html#mozilla" id="mozilla">
-	      Mozilla
-	    </a>
-	    <a class="sponsor-block" href="/sponsors.html#saucelabs" id="saucelabs">
-	      Sauce Labs
-	    </a>
-	    <a class="sponsor-block" href="/sponsors.html#twilio" id="twilio">
-	      Twilio
-	    </a>
-	    <a class='sponsor-block' href='pages/sponsors.html#deltamaker' id='deltamaker'>
-	    Delta Maker
-	    </a>
-	    <a class="sponsor-block" href="/sponsors.html#parallax" id="parallax">
-	      Parallax
-	    </a>
-	    <a class='sponsor-block' href='pages/sponsors.html#pololu' id='pololu'>
-	    Pololu
-	    </a>
-	    <a class="sponsor-block" href="/sponsors.html#tessel" id="tessel">
-	      Tessel
-	    </a>
-	    <a class="sponsor-block" href="/sponsors.html#romotive" id="romotive">
-	      Romotive
-	    </a>
-	    <a class="sponsor-block" href="/sponsors.html#andyet" id="andyet">
-	      &amp;Yet
-	    </a>
-	    <a class="sponsor-block" href="/sponsors.html#embedly" id="embedly">
-	      Embedly
-	    </a>
-	    <a class="sponsor-block" href="/sponsors.html#appneta" id="appneta">
-	      AppNeta
-	    </a>
-	    </div>
-
-	  <p style="text-align: center"><a href="/sponsors.html">See the details about our amazing sponsors</a></p>
-	</div>
-</div> -->
 
 
 
