@@ -1,5 +1,8 @@
+name: RobotsConf 2014
+description: "A Software Developers Hardware Conference - Arrive a Developer, Leave a Maker"
+url: http://2014.robotsconf.com
 exclude:
   - README.md
   - CONTRIBUTING.md
 markdown: redcarpet
-pygments: true
+highlighter: true

@@ -98,47 +98,47 @@ function setTwitter() {
 	$("#tweet").html("Early Bird Tickets are almost sold out, be sure to <a href='http://tickets.robotsconf.com/'>pick up yours</a> soon!");
 }
 $(function () {
-	if (setTime())
-		setInterval(setTime, 1000);
-	if ($("#front-page").length) {
-		loadPhotos(true);
-		setInterval(loadPhotos, 10000);
-
-		$(".nav a, a#rtt").click(function (e) {
-			var href = $(this).attr("href");
-			if (href.indexOf("#") >= 0) {
-				// local link
-				f(e);
-				var target=href.replace("/#", "").replace("#", "");
-				scrollTo("#"+target);
-				activateMenu(target);
-
-			}
-		});
-	} else {
-		$("#rtt").remove();
-	}
-
-  if ($("#fpo").length) {
-    var curr = 0;
-    var slides = $("#fpo li");
-    var max = slides.length;
-    var firstRun = false;
-    var spinner = function () {
-      var showing = (curr+1)%max;
-      if (!firstRun) {
-        slides.hide();
-        $(slides[0]).show();
-        firstRun=true;
-      } else {
-        $(slides[curr]).fadeOut();
-        $(slides[showing]).fadeIn();
-        curr = showing;
-      }
-    };
-    spinner();
-    setInterval(spinner, 7000);
-  }
+	// if (setTime())
+	// 	setInterval(setTime, 1000);
+	// if ($("#front-page").length) {
+	// 	loadPhotos(true);
+	// 	setInterval(loadPhotos, 10000);
+	// 
+	// 	$(".nav a, a#rtt").click(function (e) {
+	// 		var href = $(this).attr("href");
+	// 		if (href.indexOf("#") >= 0) {
+	// 			// local link
+	// 			f(e);
+	// 			var target=href.replace("/#", "").replace("#", "");
+	// 			scrollTo("#"+target);
+	// 			activateMenu(target);
+	// 
+	// 		}
+	// 	});
+	// } else {
+	// 	$("#rtt").remove();
+	// }
+	// 
+	//   if ($("#fpo").length) {
+	//     var curr = 0;
+	//     var slides = $("#fpo li");
+	//     var max = slides.length;
+	//     var firstRun = false;
+	//     var spinner = function () {
+	//       var showing = (curr+1)%max;
+	//       if (!firstRun) {
+	//         slides.hide();
+	//         $(slides[0]).show();
+	//         firstRun=true;
+	//       } else {
+	//         $(slides[curr]).fadeOut();
+	//         $(slides[showing]).fadeIn();
+	//         curr = showing;
+	//       }
+	//     };
+	//     spinner();
+	//     setInterval(spinner, 7000);
+	//   }
 
 	setTwitter();
 
@@ -151,10 +151,14 @@ $(function () {
         cache: true,
         jsonpCallback: 'setWeather'
     });
-    $(".speaker").hover(function () {
-    	$(this).addClass("hover");
-    }, function () {
-    	$(this).removeClass("hover");
-    })
-
+    // $(".speaker").hover(function () {
+    // 	$(this).addClass("hover");
+    // }, function () {
+    // 	$(this).removeClass("hover");
+    // })
+	if (document.documentElement.clientWidth > 480) {
+		$('.carousel').carousel({
+		  interval: 3000,
+		})
+	}
 });

@@ -1,7 +1,7 @@
 
 - firstname: Chris
   lastname: Williams
-  visible: false
+  visible: true
   smurl: http://twitter.com/voodootikigod
   smtype: twitter
   smhandle: "voodootikigod"

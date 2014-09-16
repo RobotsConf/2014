@@ -20,9 +20,9 @@
     <meta http-equiv="pragma" content="no-cache" />
     <link rel="shortcut icon" href="/img/favicon.png" >
 
-    <meta name="description" content="">
+    <meta name="description" content="{{site.description}}">
 
-    <title>RobotsConf - {{page.title}}</title>
+    <title>{{site.name}} - {{page.title}}</title>
     <link href='http://fonts.googleapis.com/css?family=Monda:400,700' rel='stylesheet' type='text/css'>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
@@ -36,9 +36,14 @@
     <link rel="stylesheet" media="screen" href="/css/carousel.css" >
     <link rel="stylesheet" media="screen" href="/css/main2.css" >
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
-        <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+    <link rel="alternate" type="application/rss+xml" title="RobotsConf 2014 - Latest News" href="/feed.xml" >
+
+
     <script src='/js/robotsconf.js'></script>
+  <link href="http://dnhw55p8qm1uu.cloudfront.net/node.css" media="all" rel="stylesheet" type="text/css"/>
 </head>
 <!---
      ..............
@@ -49,6 +54,10 @@
      ..............
 -->
 <body>
+<div id='supporter'>
+  Brought to you by <a href="http://www.emergingtechnologyadvisors.com" title='Emerging Technology Advisors is a boutique consulting group focused on the emerging technology market. We are leaders in next generation technologies from programming to Internet of Things to Big Data to DevOps.'>Emerging Technology Advisors - ETA</a>
+</div>
+
     <div class="navbar-wrapper">
       <div class="container">
 
@@ -68,10 +77,10 @@
                 <li><a href="/how-to-ticket.html">Tickets</a></li>
                 <li class='news' ><a href="/news.html">News</a></li>
                 <li class='venue'><a href="/venue.html">Venue</a></li>
-                <li class='speakers'><a  href="/call-for-speakers.html">Call for Makers</a></li>
+                <li class='speakers'><a href="/call-for-speakers.html">Call for Makers</a></li>
                 <!-- <li class='events'><a  href="/events">Events</a></li> -->
-                <li class='sponsors'><a href="/#sponsors">Sponsors</a></li>
-                <li class='exhibits'><a  href="/#sponsors">Exhibitors</a></li>
+                <li class='sponsors'><a href="/sponsors.html">Sponsors</a></li>
+                <!-- <li class='exhibits'><a  href="/#sponsors">Exhibitors</a></li> -->
                 <li id='aboutMenu'><a href="/about.html">About</a></li>
                 <li id='conductMenu'><a href="/codeofconduct.html">Conduct</a></li>
               </ul>
@@ -96,14 +105,18 @@
               <a href="/" >Home</a>  |
               <a title="Tickets" href="http://tickets.robotsconf.com">Tickets</a> |
               <a href="http://www.omnihotels.com/FindAHotel/AmeliaIsland/MeetingFacilities/RobotConference8.aspx">Hotel Rooms</a> |
-              <a href="/schedule.html">Schedule</a>  |
+              <!-- <a href="/schedule.html">Schedule</a>  | -->
               <a href="/venue.html">Venue</a>  |
-              <a href="/speakers.html">Speakers</a>  |
+			  <a href="/call-for-speakers.html">Call for Makers</a> |
+              <!-- <a href="/speakers.html">Speakers</a>  | -->
               <a href="/sponsors.html">Sponsors</a>  |
               <a href="/about.html">About</a> |
+			  <a href="/codeofconduct.html">Conduct</a> |
               <a href="https://plus.google.com/105500764340831514527" rel="publisher">Google+</a>
             <div class="credits">
+                <p class="copyright"><br/>Photography of RobotsConf and JSConf provided with a huge thanks to <a href="https://www.flickr.com/photos/matthewbergman/">Matthew Bergman</a> and <a href="https://www.flickr.com/photos/iancole">Ian Cole</a>.</p>
                 <p class="copyright"><br/>Copyright &copy; <script>document.write((new Date()).getFullYear());</script> Iterative Designs</p>
+
             </div>
         </footer>
 
