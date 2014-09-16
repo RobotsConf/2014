@@ -308,36 +308,18 @@ a#rtt { position: fixed; bottom: 12px; right: 12px; display: block; font-size: 1
 #fpo ul li { margin: 0px; padding: 0px; display: block; position: absolute; display:none;}
 
 body .speaker.hover {background-position: 15px -136px !important;  }
+
 .sponsor-block { height: 200px; width: 200px;  margin:12px 46px; display: block; float: left; text-indent: -2000px; overflow: hidden; background-position: center center; background-repeat: no-repeat; opacity: 0.7;}
 .sponsor-block:hover { opacity: 1.0;}
 
-.sponsor-block#bloomberg { background-image: url(/img/sponsors/bloomberg.png);}
-.sponsor-block#sparkdevices { background-image: url(/img/sponsors/sparkdevices.png);}
-.sponsor-block#andyet { background-image: url(/img/sponsors/andyet.png);}
-.sponsor-block#twilio { background-image: url(/img/sponsors/twilio.png);}
-.sponsor-block#pololu { background-image: url(/img/sponsors/pololu.png);}
-.sponsor-block#azure { background-image: url(/img/sponsors/azure.png);}
-.sponsor-block#msi { background-image: url(/img/sponsors/msi.png);}
-.sponsor-block#makergarage { background-image: url(/img/sponsors/makergarage.png);}
-.sponsor-block#parallax { background-image: url(/img/sponsors/parallax.png);}
-.sponsor-block#tessel { background-image: url(/img/sponsors/tessel.png);}
-.sponsor-block#embedly { background-image: url(/img/sponsors/embedly.png);}
-.sponsor-block#romotive { background-image: url(/img/sponsors/romotive.png);}
-.sponsor-block#bugbuster { background-image: url(/img/sponsors/bugbuster.png);}
-.sponsor-block#appneta { background-image: url(/img/sponsors/appneta.png);}
-.sponsor-block#hybridgroup { background-image: url(/img/sponsors/hybridgroup.png);}
-.sponsor-block#deltamaker { background-image: url(/img/sponsors/deltamaker.png);}
-.sponsor-block#make { background-image: url(/img/sponsors/make.png);}
-.sponsor-block#leapmotion { background-image: url(/img/sponsors/leapmotion.png);}
-
 .sponsor-block#github { background-image: url(/img/sponsors/github.png);}
-.sponsor-block#saucelabs { background-image: url(/img/sponsors/sauce.png);}
-.sponsor-block#yahoo { background-image: url(/img/sponsors/yahoo.png);}
-.sponsor-block#embedly { background-image: url(/img/sponsors/embedly.png);}
-.sponsor-block#heroku { background-image: url(/img/sponsors/heroku.png);}
-.sponsor-block#rackspace { background-image: url(/img/sponsors/rackspace.png);}
+.sponsor-block#electricimp { background-image: url(/img/sponsors/electricimp.png);}
+.sponsor-block#bitcraze { background-image: url(/img/sponsors/bitcraze.png);}
+.sponsor-block#microsoft { background-image: url(/img/sponsors/microsoft.png);}
+.sponsor-block#pinoccio { background-image: url(/img/sponsors/pinoccio.png);}
+.sponsor-block#tessel { background-image: url(/img/sponsors/tessel.png);}
 
-.sponsor-block#mozilla { background-image: url(/img/sponsors/mozilla.png);}
+.sponsor-block#twilio { background-image: url(/img/sponsors/twilio.png);}
 #right .well p { color: black; margin: 0px; padding: 0px; }
 .well {
     background: white;

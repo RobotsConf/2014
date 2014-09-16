@@ -141,31 +141,29 @@ id: register
         </div>
       </div>
 
-      <!-- <hr class="featurette-divider"> -->
+      <hr class="featurette-divider">
 
       <!-- /END THE FEATURETTES -->
-      <hr class="featurette-divider">
-<div class="row featurette">
-    <h2 class="featurette-heading " style="text-align: center">Sponsored By These Amazing Companies</h2>
-  <div id='sponsors'>
-      <div class='clearfix'>
-
-        {% for sponsor in site.data.sponsors %}
-          {%if sponsor.visible %}
-            <a class="sponsor-block" href="/sponsors.html#{{ sponsor.short }}" id="{{ sponsor.short }}">
-              {{ sponsor.name }}
-            </a>
-          {% endif %}
-        {% endfor %}
-
-      </div>
-
-    <p style="text-align: center"><a href="/sponsors.html">See the details about our amazing sponsors</a></p>
-  </div>
-</div>
 
     </div><!-- /.container marketing -->
 
+<div class="row featurette">
+	<div class="col-md-12">
+    <h2 class="featurette-heading " style="text-align: center">Sponsored By These Amazing Companies</h2>
+    <div id='sponsors'>
+      <div class='clearfix'>    
+          {% for sponsor in site.data.sponsors %}
+            {%if sponsor.visible %}
+              <a class="sponsor-block" href='/sponsors.html#{{sponsor.short}}' id='{{sponsor.short}}'>
+                {{sponsor.name}}
+              </a>
+            {% endif %}
+          {% endfor %}
+        </div>
+      <p style="text-align: center"><a href="/sponsors.html">See the details about our amazing sponsors</a></p>
+    </div>
+  </div>
+</div>
 
 
 
