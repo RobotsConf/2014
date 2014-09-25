@@ -318,6 +318,7 @@ body .speaker.hover {background-position: 15px -136px !important;  }
 .sponsor-block#microsoft { background-image: url(/img/sponsors/microsoft.png);}
 .sponsor-block#pinoccio { background-image: url(/img/sponsors/pinoccio.png);}
 .sponsor-block#tessel { background-image: url(/img/sponsors/tessel.png);}
+.sponsor-block#sparkdevices { background-image: url(/img/sponsors/sparkdevices.png);}
 
 .sponsor-block#twilio { background-image: url(/img/sponsors/twilio.png);}
 #right .well p { color: black; margin: 0px; padding: 0px; }
