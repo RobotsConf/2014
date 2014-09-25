@@ -65,6 +65,20 @@
     and built-in radio. It’s also an API to get your board talking to the Web
     right out of the box.
 
+- name: Spark Devices
+  visible: true
+  short: sparkdevices
+  logo: sparkdevices.png
+  url: https://www.sparkdevices.com
+  event:
+  description: >
+    Spark is helping people create a connected future that feels almost like
+    magic. Start building that future with the Spark Core, a tiny Wi-Fi
+    development kit ideal for prototyping, and use Spark OS, a complete
+    open-source operating system to bring your cloud-connected product to the
+    masses.
+
+
 - name: Technical Machine
   visible: true
   short: tessel
