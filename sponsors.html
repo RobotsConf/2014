@@ -6,7 +6,9 @@ id: sponsors
 
 <div id='sponsors' class='container'>
 <div class="row featurette">
-	<h2 id='keynote' class="featurette-heading mtop">Sponsors</h2>
+	<div class='col-md-12'>
+    <h2 id='keynote' class="featurette-heading mtop">Sponsors</h2>
+  </div>
 	<div class='col-md-6'>
 	    <p>At RobotsConf, the best, most curious high level programmers (Ruby, Python, JS, etc.) gather in Amelia Island, FL for a unique conference experience that showcases the Internet of Things. We want you there as a sponsor or exhibitor to make the event amazing! This event focuses on increasing awareness for all of the amazing inventions, innovations, and suppliers within the hardware and maker space. We focus our sponsorships on creating amazing shared experiences which have a far broader and longer lasting effects for you and the attendees. Whether your goal is brand exposure, making new customers, recruiting, product launch, or something else, we have a sponsorship opportunity for you.</p>
 	  <p>Sponsorship and exhibitor slots are very limited, but please <a href="mailto:sponsorship@jsconf.us">contact us for details</a>!</p>
@@ -14,33 +16,34 @@ id: sponsors
 			<h3 class='yellow-link'><a href="https://docs.google.com/forms/d/1H6_1aFjuh2-pJtH3bwWx7JwERxOtDhaI-aBVS2K-7sw/viewform">Sponsor RobotsConf 2014!</a></h3>
 		</center>
 	</div>
-
-	  	<div class="col-md-6">
-		  <img class="img-thumbnail hidden-sm hidden-xs pull-right" width="100%" src="/img/robots2013_iancole_5.jpg" alt="Making things is awesome!"/>
-	  	</div>
-<article class="sponsors">
-{% for sponsor in site.data.sponsors %}
-  {%if sponsor.visible %}
-  <div class='sponsor' id='{{sponsor.short}}'>
-    <div class='name'>
-      <a href='{{sponsor.url}}'>
-        {% if sponsor.logo %}
-          <img src='/img/sponsors/{{sponsor.logo}}' alt='{{sponsor.name}}'/>
-        {% else %}
-          <h3>{{sponsor.name}}</h3>
+	<div class="col-md-6">
+    <img class="img-thumbnail hidden-sm hidden-xs pull-right" width="100%" src="/img/robots2013_iancole_5.jpg" alt="Making things is awesome!"/>
+	</div>
+	<div class='col-md-12'>  
+    <article class="sponsors">
+    {% for sponsor in site.data.sponsors %}
+      {%if sponsor.visible %}
+      <div class='sponsor' id='{{sponsor.short}}'>
+        <div class='name'>
+          <a href='{{sponsor.url}}'>
+            {% if sponsor.logo %}
+              <img src='/img/sponsors/{{sponsor.logo}}' alt='{{sponsor.name}}'/>
+            {% else %}
+              <h3>{{sponsor.name}}</h3>
+            {% endif %}
+          </a>
+        </div>
+        {% if sponsor.event %}
+          <div class='component'>Sponsoring {{sponsor.event}}</div>
         {% endif %}
-      </a>
-    </div>
-    {% if sponsor.event %}
-      <div class='component'>Sponsoring {{sponsor.event}}</div>
-    {% endif %}
-    <div class='description'>
-      {{sponsor.description | markdownify}}
-    </div>
+        <div class='description'>
+          {{sponsor.description | markdownify}}
+        </div>
+      </div>
+      {% endif %}
+    {% endfor %}
+    </article>
   </div>
-  {% endif %}
-{% endfor %}
-</article>
 
 
 	<!-- 	<div class='sponsor' id='github'>
