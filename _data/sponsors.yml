@@ -89,3 +89,16 @@
     Tessel is a microcontroller that runs JavaScript. It's Node-compatible and
     ships with Wifi built in. With plug-and-play sensor and actuator modules
     and access to internet APIs, Tessel is hardware built for web developers.
+
+- name: Temboo
+  visible: true
+  short: temboo
+  logo: temboo.png
+  url: http://www.temboo.com
+  event:
+  description: >
+    Temboo is re-imagining programming for software and hardware developers.
+    By offloading processing to the cloud, our code virtualization technology
+    lets IoT programmers connect devices to a Library of 2000+ processes for
+    100+ APIs, databases, and code utilities. We’re making connected devices
+    behave more intelligently and flexibly—visit Temboo.com/iot to learn more!
