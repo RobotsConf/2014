@@ -1,5 +1,6 @@
 RobotsConf
 ==========
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/RobotsConf/2014?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 
 Join us for the world's first RobotsConf - December 6 and 7, 2013 at Amelia Island, FL
