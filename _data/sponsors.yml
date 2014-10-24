@@ -38,6 +38,20 @@
     collaboration and code sharing on any device. Start collaborating today—open
     source project hosting is free!
 
+- name: LulzBot
+  visible: true
+  short: lulzbot
+  logo: lulzbot.png
+  url: http://www.lulzbot.com
+  event:
+  description: >
+    Frustrated by the status quo, we started a company that respects your
+    freedom to get the job done. From Fortune 500 companies and Ivy League
+    schools to makers and hackers, people around the world rely on LulzBot 3D
+    printers to get the job done. LulzBot is a product line of Aleph Objects,
+    Inc., an Open Source Hardware company founded in January 2011 and
+    headquartered in Loveland, Colorado, USA.
+
 - name: Microsoft
   visible: true
   short: microsoft
