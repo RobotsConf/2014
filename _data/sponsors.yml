@@ -48,6 +48,23 @@
     Founded in 1975, Microsoft is the worldwide leader in software, services
     and solutions that help people and businesses realize their full potential.
 
+- name: Pinoccio
+  visible: true
+  short: pinoccio
+  logo: pinoccio.png
+  url: https://pinocc.io
+  event:
+  description: >
+    Pinoccio is a complete ecosystem for the Internet of Things.
+
+
+    When we say “complete ecosystem” we mean that it is both hardware and
+    software, built together with the goal of helping you create a web-enabled
+    DIY project as quickly and as easily as possible. On the hardware side,
+    Pinoccio is a wireless, web-ready microcontroller with WiFi, LiPo battery,
+    and built-in radio. It’s also an API to get your board talking to the Web
+    right out of the box.
+
 - name: Spark Devices
   visible: true
   short: sparkdevices
