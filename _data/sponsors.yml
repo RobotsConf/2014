@@ -142,9 +142,9 @@
 
 - name: Vistaprint
   visible: true
-  short: vistraprint
-  logo: vistraprint.png
-  url: http://www.vistraprint.com
+  short: vistaprint
+  logo: vistaprint.png
+  url: http://www.vistaprint.com
   event:
   description: >
     Vistaprint N.V. (Nasdaq:VPRT) empowers more than 16 million micro
