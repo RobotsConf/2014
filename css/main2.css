@@ -7,7 +7,6 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
 body{ font-family: 'Monda', sans-serif; }
 footer { text-align: center; font-size: 90%; border-top: 1px solid #eee; margin: 80px 0px; padding-top: 80px}
 .featurette-heading {
@@ -186,8 +185,11 @@ em { font-style: normal; color: #ff5200; font-weight: bold;}
 #amelia-island p { margin-top: 0px;}
 
 .yellow-link a, .yellow-link a:visited, .yellow-link a:link {border-radius:5px; background: #ff5200; text-decoration: none; color:white;font-weight:bold; font-weight: 700; }
+
+.navbar-nav li.yellow-link a  {  color: #fff;line-height:10px;margin-top:18px;}
+
 #get-me-there { background: #ffe13c; text-decoration: underline; color:#4e4e70; text-decoration:none;  font-weight: 700; padding: 8px; text-align: center; display:block; font-weight: bold; font-size: 20px;}
-.yellow-link a:hover, #get-me-there:hover { background: black; color:white;}
+.yellow-link a:hover, #get-me-there:hover,.navbar-nav li.yellow-link a:hover { background: black; color:white;}
 
 body h3.yellow-link a {  padding: 4px 24px 4px 24px; margin-bottom:20px;}
 a#rtt { position: fixed; bottom: 12px; right: 12px; display: block; font-size: 12px;background: #ffe13c; text-decoration: none; color:#3c1f0a; padding: 4px;}
@@ -359,6 +361,8 @@ body .speaker.hover {background-position: 15px -136px !important;  }
   	font-size: 85%; padding: 8px;
   	line-height:37px;
   }
+  .navbar-nav li.yellow-link a  {color: #fff;line-height:10px;margin-top:14px;margin-left:20px;}
+  
   h1 {
   	font-size: 24px;
   	letter-spacing: 2px;
@@ -372,6 +376,11 @@ body .speaker.hover {background-position: 15px -136px !important;  }
  	.nav>li>a{
 	  	/*font-size: 85%; padding: 3px;}*/
 	}
+  .navbar-nav li.yellow-link a  {  font-size:9px;margin-left:0px;}
+  
+}
+@media screen and (max-width: 766px) {
+    .navbar-nav li.yellow-link a { margin:20px 10% 0 10%;}   
 }
 @media screen and (max-width: 470px) {
     h3.yellow-link a {font-size:18px;}

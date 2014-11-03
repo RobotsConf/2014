@@ -104,17 +104,17 @@ $(function () {
 	// 	loadPhotos(true);
 	// 	setInterval(loadPhotos, 10000);
 	// 
-	// 	$(".nav a, a#rtt").click(function (e) {
-	// 		var href = $(this).attr("href");
-	// 		if (href.indexOf("#") >= 0) {
-	// 			// local link
-	// 			f(e);
-	// 			var target=href.replace("/#", "").replace("#", "");
-	// 			scrollTo("#"+target);
-	// 			activateMenu(target);
-	// 
-	// 		}
-	// 	});
+    //     $(".nav a, a#rtt").click(function (e) {
+    //       var href = $(this).attr("href");
+    //       if (href.indexOf("#") >= 0) {
+    //         // local link
+    //         f(e);
+    //         var target=href.replace("/#", "").replace("#", "");
+    //         scrollTo("#"+target);
+    //         activateMenu(target);
+    //
+    //       }
+    // });
 	// } else {
 	// 	$("#rtt").remove();
 	// }
