@@ -38,6 +38,20 @@
     collaboration and code sharing on any device. Start collaborating today—open
     source project hosting is free!
 
+- name: LulzBot
+  visible: true
+  short: lulzbot
+  logo: lulzbot.png
+  url: http://www.lulzbot.com
+  event:
+  description: >
+    Frustrated by the status quo, we started a company that respects your
+    freedom to get the job done. From Fortune 500 companies and Ivy League
+    schools to makers and hackers, people around the world rely on LulzBot 3D
+    printers to get the job done. LulzBot is a product line of Aleph Objects,
+    Inc., an Open Source Hardware company founded in January 2011 and
+    headquartered in Loveland, Colorado, USA.
+
 - name: Microsoft
   visible: true
   short: microsoft
@@ -78,7 +92,6 @@
     open-source operating system to bring your cloud-connected product to the
     masses.
 
-
 - name: Technical Machine
   visible: true
   short: tessel
@@ -102,3 +115,21 @@
     lets IoT programmers connect devices to a Library of 2000+ processes for
     100+ APIs, databases, and code utilities. We’re making connected devices
     behave more intelligently and flexibly—visit Temboo.com/iot to learn more!
+
+- name: Vistaprint
+  visible: true
+  short: vistraprint
+  logo: vistraprint.png
+  url: http://www.vistraprint.com
+  event:
+  description: >
+    Vistaprint N.V. (Nasdaq:VPRT) empowers more than 16 million micro
+    businesses and consumers annually with affordable, professional options to
+    make an impression. With a unique business model supported by proprietary
+    technologies, high-volume production facilities, and direct marketing
+    expertise, Vistaprint offers a wide variety of products and services that
+    micro businesses can use to expand their business. A global company,
+    Vistaprint employs over 5,100 people, operates more than 30 localized
+    websites globally and ships to more than 130 countries around the world.
+    Vistaprint's broad range of products and services are easy to access
+    online, 24 hours a day at [www.vistaprint.com](http://www.vistaprint.com/).
