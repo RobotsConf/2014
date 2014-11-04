@@ -314,15 +314,6 @@ body .speaker.hover {background-position: 15px -136px !important;  }
 .sponsor-block { height: 200px; width: 200px;  margin:12px 40px; display: block; float: left; text-indent: -2000px; overflow: hidden; background-position: center center; background-repeat: no-repeat; opacity: 0.7;}
 .sponsor-block:hover { opacity: 1.0;}
 
-.sponsor-block#github { background-image: url(/img/sponsors/github.png);}
-.sponsor-block#electricimp { background-image: url(/img/sponsors/electricimp.png);}
-.sponsor-block#bitcraze { background-image: url(/img/sponsors/bitcraze.png);}
-.sponsor-block#microsoft { background-image: url(/img/sponsors/microsoft.png);}
-.sponsor-block#pinoccio { background-image: url(/img/sponsors/pinoccio.png);}
-.sponsor-block#tessel { background-image: url(/img/sponsors/tessel.png);}
-.sponsor-block#sparkdevices { background-image: url(/img/sponsors/sparkdevices.png);}
-.sponsor-block#temboo { background-image: url(/img/sponsors/temboo.png);}
-.sponsor-block#twilio { background-image: url(/img/sponsors/twilio.png);}
 #right .well p { color: black; margin: 0px; padding: 0px; }
 .well {
     background: white;
