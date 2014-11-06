@@ -1,12 +1,107 @@
-
-- firstname: Chris
-  lastname: Williams
-  visible: true
-  smurl: http://twitter.com/voodootikigod
+- firstname: Jay
+  lastname: Beavers
+  visible: false
+  smurl: http://twitter.com/
   smtype: twitter
-  smhandle: "voodootikigod"
+  smhandle: "ykro"
+  title: RobotsConf Workshop Staff
+  body: >
+    NA - Not Registered yet
+  bio: >
+    Speaker bio here!
+
+- firstname: Donovan
+  lastname: Buck
+  visible: True
+  smurl: http://twitter.com/dtex
+  smtype: twitter
+  smhandle: "dtex"
+  title: RobotsConf Workshop Staff
+  body: >
+    NA
+    
+  bio: >
+    Speaker bio here!
+
+
+- firstname: Adrian
+  lastname: Catalan
+  visible: true
+  smurl: http://twitter.com/ykro
+  smtype: twitter
+  smhandle: "ykro"
+  title: OculusHead (Keynote)
+  body: >
+    The project is a 3D printed robotic head for a telepresence immersive experience, the project includes movement of the 3D printed head and computer vision. Using the accelerometer that the Oculus Rift headset provides we are moving several servos that have webcams mounted, the goal is to mimic remotely the moves of a person wearing the headset. We have a node.js apps that obtains this data, process it and translate it to actuators plugged to an Arduino, OculusHead have movement on 3-axis with servos simulating almost all of the possible movements of a human head. 
+    
+    For the vision part we are using two webcams mounted on the servo system that can see in the same direction the user sees, this is real time streamed to a computer and can be visualized on the Oculus Rift headset plugged to this computer in a different location that the OculusHead is located. There are several filters applied to the source image to give the full immersive experience including the depth that's needed for the headset.
+    
+    The software part is implemented using JavaScript and node.js and libraries like vr.js, three.js, johnny-five and socket.io. We are currently working on printing a full head (based on InMoov project) and implementing more features of computer vision like face recognition and more image processing.
+
+  bio: >
+    Speaker bio here!
+
+- firstname: Nick
+  lastname: Doiron
+  visible: true
+  smurl: http://github.com/mapmeld
+  smtype: github
+  smhandle: "mapmeld"
+  title: Prototyping: Materials and Methods
+  body: >
+    When you build your own robots and gadgets, materials make all the difference. Working with conductive thread and flexible sensors changes what technology can do and how you build prototypes. 
+    
+    This talk explores prototyping through One Laptop per Child's drive for cheap, childproof science kits, and a new electronics kit that I am making with needle, thread, and beanbags.
+    
+    This is in part a story about developing DIY sensors that work in remote parts of the world, and finding local engineers to resolder what breaks. It's also a look inside education technology meetups, where projects with science fiction names were dreamed up, manufactured, and put to the test. The successes and failures of these prototypes point to a future for open hardware in education and the maker movement.
+  bio: >
+    Speaker bio here!
+
+
+- firstname: Kristina
+  lastname: Durivage
+  visible: true
+  smurl: http://twitter.com/gelicia
+  smtype: twitter
+  smhandle: "gelicia"
+  title: Wearable Technology (NEEDS OFFICIAL TITLE)
+  body: >
+    Adding technology to clothing comes with some unique challenges. Instead of buying special technology for wearable items (the sew in Lilypad or Flora components, for example), you can design your wearable item to work well with electrical components you can buy anywhere. I’ll talk about the various things I’ve done for the wearable technology items I’ve created and give some tips that can be used on a wearable project of your own.
+  bio: >
+    Speaker bio here!
+    
+    
+- firstname: Jay
+  lastname: Beavers
+  visible: true
+  smurl: http://twitter.com/
+  smtype: twitter
+  smhandle: "ykro"
+  title: RobotsConf Workshop Staff
+  body: >
+    NA - Not Registered yet
+  bio: >
+    Speaker bio here!
+    
+    
+
+- firstname: Kassandra
+  lastname: Perch
+  visible: true
+  smurl: http://twitter.com/nodebotanist
+  smtype: twitter
+  smhandle: "nodebotanist"
   title: Awesome Talk Example
   body: >
-    Talk body here!
+    Developing applications for FFOS phones as an augmentation to robotics projects.
+    
+    Are you looking for a touchscreen for your project? How about a separate accelerometer? A camera? Sound? You can add all of these to your project for $80, programmed in web tech.
+    
+    The firefox os phones were meant to replace feature phones in developing countries, but I'd like to talk about the ways we can use these affordable devices to augment robotics projects. You can even use the code you write for them on any device with a browser!
+    
+    Also, any apps you write don't have to be submitted to a central app store for distribution- Mozilla gives you all the tools you need to allow installation of your FFOS app from any web site. 
+    
+    This workshop assumes a basic knowledge of HTML/CSS/JS. We'll walk through using the simulator, defining a FFOS application from your web app, using Phone APIs, and how we can use these to augment existing robotics projects.
+
   bio: >
     Speaker bio here!
