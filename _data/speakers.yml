@@ -1,58 +1,56 @@
 - firstname: Jay
   lastname: Beavers
   visible: false
+  category: staff
   smurl: http://twitter.com/
   smtype: twitter
   smhandle: "ykro"
   title: RobotsConf Workshop Staff
   body: >
-    NA - Not Registered yet
+    Language Expert!
   bio: >
     Speaker bio here!
 
 - firstname: Donovan
   lastname: Buck
   visible: True
+  category: staff
   smurl: http://twitter.com/dtex
   smtype: twitter
   smhandle: "dtex"
   title: RobotsConf Workshop Staff
   body: >
-    NA
-    
+    Workshop Support Staff
   bio: >
-    Speaker bio here!
+    Donovan studied computer science at the University of Houston and continues to further his programming knowledge at key industry events, including JSConf, NodeConf and TXJS. He is also a regular contributor to Johnny-Five, an open-source framework for programming robots using JavaScript.
 
 
 - firstname: Adrian
   lastname: Catalan
   visible: true
+  category: speaker
   smurl: http://twitter.com/ykro
   smtype: twitter
   smhandle: "ykro"
   title: OculusHead (Keynote)
   body: >
     The project is a 3D printed robotic head for a telepresence immersive experience, the project includes movement of the 3D printed head and computer vision. Using the accelerometer that the Oculus Rift headset provides we are moving several servos that have webcams mounted, the goal is to mimic remotely the moves of a person wearing the headset. We have a node.js apps that obtains this data, process it and translate it to actuators plugged to an Arduino, OculusHead have movement on 3-axis with servos simulating almost all of the possible movements of a human head. 
-    
     For the vision part we are using two webcams mounted on the servo system that can see in the same direction the user sees, this is real time streamed to a computer and can be visualized on the Oculus Rift headset plugged to this computer in a different location that the OculusHead is located. There are several filters applied to the source image to give the full immersive experience including the depth that's needed for the headset.
-    
     The software part is implemented using JavaScript and node.js and libraries like vr.js, three.js, johnny-five and socket.io. We are currently working on printing a full head (based on InMoov project) and implementing more features of computer vision like face recognition and more image processing.
-
   bio: >
     Speaker bio here!
 
 - firstname: Nick
   lastname: Doiron
   visible: true
+  category: speaker
   smurl: http://github.com/mapmeld
   smtype: github
   smhandle: "mapmeld"
-  title: Prototyping: Materials and Methods
+  title: "Prototyping: Materials and Methods"
   body: >
     When you build your own robots and gadgets, materials make all the difference. Working with conductive thread and flexible sensors changes what technology can do and how you build prototypes. 
-    
     This talk explores prototyping through One Laptop per Child's drive for cheap, childproof science kits, and a new electronics kit that I am making with needle, thread, and beanbags.
-    
     This is in part a story about developing DIY sensors that work in remote parts of the world, and finding local engineers to resolder what breaks. It's also a look inside education technology meetups, where projects with science fiction names were dreamed up, manufactured, and put to the test. The successes and failures of these prototypes point to a future for open hardware in education and the maker movement.
   bio: >
     Speaker bio here!
@@ -61,6 +59,7 @@
 - firstname: Kristina
   lastname: Durivage
   visible: true
+  category: speaker
   smurl: http://twitter.com/gelicia
   smtype: twitter
   smhandle: "gelicia"
@@ -68,40 +67,206 @@
   body: >
     Adding technology to clothing comes with some unique challenges. Instead of buying special technology for wearable items (the sew in Lilypad or Flora components, for example), you can design your wearable item to work well with electrical components you can buy anywhere. I’ll talk about the various things I’ve done for the wearable technology items I’ve created and give some tips that can be used on a wearable project of your own.
   bio: >
-    Speaker bio here!
+    Kristina Durivage is an independent software developer interested in data visualization and making the world a brighter place with LEDs. She lives in Minneapolis, Minnesota.
     
     
-- firstname: Jay
-  lastname: Beavers
+- firstname: Brady
+  lastname: Forrest
   visible: true
-  smurl: http://twitter.com/
+  category: speaker
+  smurl: http://twitter.com/brady
   smtype: twitter
-  smhandle: "ykro"
-  title: RobotsConf Workshop Staff
+  smhandle: "brady"
+  title: Keynote
   body: >
-    NA - Not Registered yet
+    ????
   bio: >
     Speaker bio here!
     
     
+- firstname: Sara
+  lastname: Gorecki
+  visible: true
+  category: staff
+  smurl: http://twitter.com/opheliasdaisies
+  smtype: twitter
+  smhandle: "opheliasdaisies"
+  title: RobotsConf Workshop Staff
+  body: >
+    Workshop Support Staff
+  bio: >
+    Speaker bio here!
+
+- firstname: Francis
+  lastname: Gulotta
+  visible: true
+  category: staff
+  smurl: http://twitter.com/reconbot
+  smtype: twitter
+  smhandle: "reconbot"
+  title: RobotsConf Workshop Staff
+  body: >
+    Workshop Support Staff
+  bio: >
+    Speaker bio here!
+
+- firstname: Suz
+  lastname: Hinton
+  visible: true
+  category: staff
+  smurl: http://twitter.com/noopkat
+  smtype: twitter
+  smhandle: "noopkat"
+  title: RobotsConf Workshop Staff
+  body: >
+    3D Printing Guide
+  bio: >
+    Susan Hinton is a web developer by day, and hobby enthusiast by night. She's currently heavily immersed in the 3D printing scene, teaching and enabling others in the technology. Her latest weapon of choice is a Printrbot Jr, which has been tricked out with upgrades and experiments. In 2011, she released a 3D printed jewelry range at http://owlposse.com. Her idea of an ideal Friday night is 3D modeling jewelry and robots, accompanied by a glass or two of quality scotch. As a board member of SYN Shop the Las Vegas hackerspace, Susan maintains the rapid prototyping station there. She also runs a newsletter called 3D Print Weekly over at 3dprintweekly.com. She's probably attempting to 3D print a cat right now.
+
+- firstname: Bryan
+  lastname: Hughes
+  visible: true
+  category: speaker
+  smurl: http://twitter.com/nebrius
+  smtype: twitter
+  smhandle: "nebrius"
+  title: Electronic Fundamentals (NEEDS OFFICIAL TITLE)
+  body: >
+    There comes a time when every roboticist builds a circuit that just doesn’t work, and they have to break out a multimeter to figure out what went wrong. Knowing how a multimeter works is just half the challenge though.
+    Using a multimeter isn’t that different from using a software debugger. You need to know how to operate the tool of course, but you also need to know how to approach problems methodically such that you rule out possible issues until the culprit is found. This workshop will teach attendees how to use a multimeter to systematically debug problems in circuits by relating it to debugging software.
+    The workshop will start with an overview of how to operator a multimeter, including how to measure voltage, current, and resistance. If necessary, an overview of these concepts and Ohm’s law will be covered. Attendees will measure the voltage of a battery, the resistance of a resistor, and the current through the resistor when connected to the battery. This will be the “see, the math works!” moment.
+    Second half of the workshop will discuss common steps to take when diagnosing problems by trying to solve an actual broken circuit. The things that one should always check when diagnosing circuits that will be covered are:
+    Check if there is power, analogous to “is this method being called”
+    Check if the wires are connected correctly, analogous to “am I passing the correct number of arguments”
+    Check if the signal passed on the wire is the correct type, analogous to “am I passing the correct types/values for each argument”
+    Possible ideas for a broken circuit include a sensor board with a bad solder joint on a ground/power pin, a bad wire used to connect to a servo, etc. I will ensure that whatever problem there is does not introduce a short circuit for safety reasons, of course.
+  bio: >
+    Speaker bio here!
+
+- firstname: Scott
+  lastname: Penberthy
+  visible: true
+  category: speaker
+  smurl: http://twitter.com/scottpenberthy
+  smtype: twitter
+  smhandle: "scottpenberthy"
+  title: keynote
+  body: >
+    ???
+  bio: >
+    Speaker bio here!
 
 - firstname: Kassandra
   lastname: Perch
   visible: true
+  category: speaker
   smurl: http://twitter.com/nodebotanist
   smtype: twitter
   smhandle: "nodebotanist"
-  title: Awesome Talk Example
+  title: Developing applications for FFOS phones as an augmentation to robotics projects.
   body: >
-    Developing applications for FFOS phones as an augmentation to robotics projects.
-    
     Are you looking for a touchscreen for your project? How about a separate accelerometer? A camera? Sound? You can add all of these to your project for $80, programmed in web tech.
-    
     The firefox os phones were meant to replace feature phones in developing countries, but I'd like to talk about the ways we can use these affordable devices to augment robotics projects. You can even use the code you write for them on any device with a browser!
-    
-    Also, any apps you write don't have to be submitted to a central app store for distribution- Mozilla gives you all the tools you need to allow installation of your FFOS app from any web site. 
-    
+    Also, any apps you write don't have to be submitted to a central app store for distribution- Mozilla gives you all the tools you need to allow installation of your FFOS app from any web site.
     This workshop assumes a basic knowledge of HTML/CSS/JS. We'll walk through using the simulator, defining a FFOS application from your web app, using Phone APIs, and how we can use these to augment existing robotics projects.
-
   bio: >
     Speaker bio here!
+
+
+- firstname: Mike
+  lastname: Skalnik
+  visible: true
+  category: staff
+  smurl: http://twitter.com/skalnik
+  smtype: twitter
+  smhandle: "skalnik"
+  title: RobotsConf Workshop Staff
+  body: >
+    3D Printing Guide
+  bio: >
+    Mike is a developer at GitHub. After having good friends playing with hardware for many years, he was inspired to bring some of this to GitHub. Starting with a 3D printer (now controlled by their company chat bot, Hubot), he has slowly worked to reignite the hardware hacking culture and make it easier for the open source hardware community to leverage GitHub for their needs.
+
+
+- firstname: Jamie
+  lastname: Szafran
+  visible: true
+  category: speaker
+  smurl: http://twitter.com/darkmoonsinger
+  smtype: twitter
+  smhandle: "darkmoonsinger"
+  title: Becoming A Maker
+  body: >
+    I intend to talk for a little bit about my own journey to becoming a Maker (becoming a software engineer, finding a hackerspace accidentally, getting to know people, taking classes) and then give a partially-serious, partially-humourous list and set of anecdotes on "things that happen/how you change when you become a Maker" (serious things like how my job widened and I had new opportunities at work and humourous things like "covert bathroom soldering" and "sparkfun evangelism").
+  bio: >
+    Speaker bio here!
+
+
+- firstname: Pawel
+  lastname: Szymczykowski
+  visible: true
+  category: staff
+  smurl: http://twitter.com/makenai
+  smtype: twitter
+  smhandle: "makenai"
+  title: RobotsConf Workshop Staff
+  body: >
+    PawelBot Creator and workshop guide!
+  bio: >
+    Pawel Szymczykowski is a software engineer at Zappos Labs (but his business card says "King of Goblins) and a proud member of the growing #VegasTech community. He is one of the board members of SYN Shop, a local hackerspace, and likes to tinker with a little bit of everything. He tries takes part in as many community projects like Downtown Podcast and Vegas Vernacular as possible while keeping his job, and enjoys organizing events like Mini Maker Faire and Nodebots Day with Susan Hinton and other trusted friends. Often leaps before looking, and it's seemed to work OK so far.
+
+
+- firstname: Raquel
+  lastname: Velez
+  visible: true
+  category: staff
+  smurl: http://twitter.com/rockbot
+  smtype: twitter
+  smhandle: "rockbot"
+  title: RobotsConf Workshop Staff
+  body: >
+    Language Expert!
+  bio: >
+    Raquel Vélez is a Software Developer in the Mobile/R&D group at Sauce Labs in San Francisco, integrating her node.js and front-end web development skills with more than a decade of robotics experience. She has previously worked at institutions such as Caltech, NASA JPL, the MIT Lincoln Laboratory, and various universities in Europe. In her off time, you can find her baking, teaching NodeBots not to fall off of tables, and speaking. Also, hanging out with her hilarious husband and two cats dressed in dog suits.
+
+
+- firstname: Rick
+  lastname: Waldron
+  visible: true
+  category: staff
+  smurl: http://twitter.com/rwaldron
+  smtype: twitter
+  smhandle: "rwaldron"
+  title: RobotsConf Workshop Staff
+  body: >
+    Johnny-five creator and Language Expert!
+  bio: >
+    Rick Waldron is an open source software engineer at Bocoup and creator of Johnny-Five, the JavaScript Arduino programming framework for Node.js. In addition to being a core committer to jQuery, Rick sits on the jQuery Foundation's Board of Directors and serves as a representative to ECMA/TC39, forging the future of the JavaScript programming language. Though sometimes abrasive, Rick is actually a nice guy.
+
+
+- firstname: Tom
+  lastname: Valletta
+  visible: true
+  category: staff
+  smurl: http://twitter.com/tvalletta
+  smtype: twitter
+  smhandle: "tvalletta"
+  title: RobotsConf Workshop Staff
+  body: >
+    Node Rockets Guide!
+  bio: >
+    Speaker bio here!
+
+
+- firstname: Gabriel
+  lastname: Dayley
+  visible: true
+  category: staff
+  smurl: http://twitter.com/gmdayley
+  smtype: twitter
+  smhandle: "gmdayley"
+  title: RobotsConf Workshop Staff
+  body: >
+    Node Rockets Guide!
+  bio: >
+    Speaker bio here!
+  

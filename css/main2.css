@@ -269,7 +269,7 @@ a#rtt { position: fixed; bottom: 12px; right: 12px; display: block; font-size: 1
 
 .speaker .name, .sponsor .name  { font-size: 24px; font-weight: bold; line-height:36px; vertical-align: middle; margin-bottom: 12px;}
 .speaker .name a.twitter { font-size: 16px; background: url(/img/bird.png) center left no-repeat; text-decoration: none; padding-left: 30px; margin-left: 30px; font-weight: normal; vertical-align: middle; margin-top:-4px;}
-#swift { background: url(/img/speakers/swift.png) -120px 0px no-repeat;}
+/*#swift { background: url(/img/speakers/swift.png) -120px 0px no-repeat;}
 #hoyt { background: url(/img/speakers/hoyt.png) -120px 0px no-repeat;}
 #evans { background: url(/img/speakers/evans.png) -120px 0px no-repeat;}
 #skalnik { background: url(/img/speakers/skalnik.png) -120px 0px no-repeat;}
@@ -303,7 +303,7 @@ a#rtt { position: fixed; bottom: 12px; right: 12px; display: block; font-size: 1
 #christian { background: url(/img/trainers/christian.png) -120px 0px no-repeat;}
 #fox { background: url(/img/trainers/fox.png) -120px 0px no-repeat;}
 #meyer { background: url(/img/trainers/meyer.png) -120px 0px no-repeat;}
-#arnold { background: url(/img/trainers/arnold.png) -120px 0px no-repeat;}
+#arnold { background: url(/img/trainers/arnold.png) -120px 0px no-repeat;}*/
 
 #fpo, .imagewrap { background: transparent url(/img/fpo.png) top left no-repeat ; width: 748px; height: 317px; padding: 7px;}
 #fpo ul { margin: 0px; padding: 0px;}
