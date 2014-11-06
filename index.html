@@ -167,7 +167,12 @@ id: register
         <div class='clearfix'>    
             {% for sponsor in site.data.sponsors %}
               {%if sponsor.visible %}
-                <a class="sponsor-block" href='/sponsors.html#{{sponsor.short}}' id='{{sponsor.short}}'>
+                <a
+                  class="sponsor-block"
+                  href='/sponsors.html#{{sponsor.short}}'
+                  id='{{sponsor.short}}'
+                  style="background-image:url(/img/sponsors/{{sponsor.logo}});"
+                >
                   {{sponsor.name}}
                 </a>
               {% endif %}
