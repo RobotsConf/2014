@@ -9,7 +9,8 @@
   body: >
     Language Expert!
   bio: >
-    Speaker bio here!
+    Jay enjoys Arduinos, Embedded Linux, Laser Cutters, 9-axis inertial measurement units, and Primesense sensors. Need we say more?
+
 
 - firstname: Donovan
   lastname: Buck
@@ -38,7 +39,8 @@
     For the vision part we are using two webcams mounted on the servo system that can see in the same direction the user sees, this is real time streamed to a computer and can be visualized on the Oculus Rift headset plugged to this computer in a different location that the OculusHead is located. There are several filters applied to the source image to give the full immersive experience including the depth that's needed for the headset.
     The software part is implemented using JavaScript and node.js and libraries like vr.js, three.js, johnny-five and socket.io. We are currently working on printing a full head (based on InMoov project) and implementing more features of computer vision like face recognition and more image processing.
   bio: >
-    Speaker bio here!
+    NodeBots Guatemala co-organizer, maker, CS engineer and tech enthusiast. I lead a Lab in Galileo University that gives workshops on making using Arduino, Raspberry Pi and BeagleBone black. Also, I'm a RobotsConf '13 alumni!
+
 
 - firstname: Nick
   lastname: Doiron
@@ -53,7 +55,7 @@
     This talk explores prototyping through One Laptop per Child's drive for cheap, childproof science kits, and a new electronics kit that I am making with needle, thread, and beanbags.
     This is in part a story about developing DIY sensors that work in remote parts of the world, and finding local engineers to resolder what breaks. It's also a look inside education technology meetups, where projects with science fiction names were dreamed up, manufactured, and put to the test. The successes and failures of these prototypes point to a future for open hardware in education and the maker movement.
   bio: >
-    Speaker bio here!
+    Nick Doiron is a developer and mapmaker. He works on websites, hardware projects, and open source libraries at the Museum of Modern Art (MoMA) in New York City.
 
 
 - firstname: Kristina
@@ -81,7 +83,7 @@
   body: >
     ????
   bio: >
-    Speaker bio here!
+    Brady is Vice President at Highway1, PCH’s incubator program. A prolific speaker and maker on the geek scene, Brady can be found at speaking engagements around the world, inventing new forms of transportation at Burning Man, or creating in the Highway1 San Francisco workshop. Additionally, Brady writes for O’Reilly Radar, tracking changes in technology. Brady is the founder of Ignite, a geek event which has spread to over a hundred cities worldwide.
     
     
 - firstname: Sara
@@ -95,7 +97,10 @@
   body: >
     Workshop Support Staff
   bio: >
-    Speaker bio here!
+    Sara began working in marketing in 2010, and repeatedly found herself in roles with strong technical components. She was consistently the most technical person on her team (and the nerdiest). After managing the development of an iPad application, she realized she wanted to start creating technology, not just using it.
+    She began teaching herself programming in 2012, and when she left marketing and began working at New York University, Sara finally had a schedule that would let her explore and develop a passion for code. She took one course through Girl Develop It, then promptly took all the other courses they offered in New York.
+    While planning a conference for the Information Systems department at NYU, Sara dove into the website’s code to update it herself. She loved it (and developed a deep respect for well-formatted code). She began putting any spare moments at work towards rebuilding the website, and those were the best moments at work she had ever had. She was hooked.
+
 
 - firstname: Francis
   lastname: Gulotta
@@ -108,7 +113,8 @@
   body: >
     Workshop Support Staff
   bio: >
-    Speaker bio here!
+    Francis is a long time developer and technologist. He's run development teams for hedge funds, tech startups, and private education. He loves teaching, javascript and robots.
+
 
 - firstname: Suz
   lastname: Hinton
@@ -122,6 +128,7 @@
     3D Printing Guide
   bio: >
     Susan Hinton is a web developer by day, and hobby enthusiast by night. She's currently heavily immersed in the 3D printing scene, teaching and enabling others in the technology. Her latest weapon of choice is a Printrbot Jr, which has been tricked out with upgrades and experiments. In 2011, she released a 3D printed jewelry range at http://owlposse.com. Her idea of an ideal Friday night is 3D modeling jewelry and robots, accompanied by a glass or two of quality scotch. As a board member of SYN Shop the Las Vegas hackerspace, Susan maintains the rapid prototyping station there. She also runs a newsletter called 3D Print Weekly over at 3dprintweekly.com. She's probably attempting to 3D print a cat right now.
+
 
 - firstname: Bryan
   lastname: Hughes
@@ -141,7 +148,10 @@
     Check if the signal passed on the wire is the correct type, analogous to “am I passing the correct types/values for each argument”
     Possible ideas for a broken circuit include a sensor board with a bad solder joint on a ground/power pin, a bad wire used to connect to a servo, etc. I will ensure that whatever problem there is does not introduce a short circuit for safety reasons, of course.
   bio: >
-    Speaker bio here!
+    Bryan Hughes is a front-end developer at Rdio and an organizer for the NodeBots SF meetup group. He went to college for a Ph.D. in electrical engineering, but wandered into JavaScript through a fortuitous serious of events.
+    "Back in his day," Bryan created robots using C and 68k assembly that took weeks to create. He still enjoys building robots today, just without the C and assembly code. He typically prefers working with the Raspberry Pi, having added support for it in Johnny-Five with the raspi-io plugin.
+    In his spare time, you can find him wine tasting or enjoying the arts with his awesome wife and attempting to be an amateur photographer.
+
 
 - firstname: Scott
   lastname: Penberthy
@@ -154,7 +164,8 @@
   body: >
     ???
   bio: >
-    Speaker bio here!
+    Scott Penberthy is a technologist and instigator of transformation, always fascinated with the new, new thing. Most recently Scott was CTO of AppOrchard and CEO of North Highland Partners, building iOS apps for enterprises, writing books about iOS programming, and consulting on cloud computing. He held several leadership roles in technology at high profile startups of Gilt Groupe, Photobucket, ad Heavy from 2005-2009. Previously he led the development of new, emerging services at IBM like On Demand and Grid Computing, a precursor to cloud computing. His early career was spent in research writing and building software that evolved into the IBM WebSphere and IBM Web Hosting business lines. Scott holds advanced degrees in computer science from MIT and the University of Washington, is a published iPhone author, and enjoys triathlons, music, great food and travel.
+
 
 - firstname: Kassandra
   lastname: Perch
@@ -166,11 +177,12 @@
   title: Developing applications for FFOS phones as an augmentation to robotics projects.
   body: >
     Are you looking for a touchscreen for your project? How about a separate accelerometer? A camera? Sound? You can add all of these to your project for $80, programmed in web tech.
-    The firefox os phones were meant to replace feature phones in developing countries, but I'd like to talk about the ways we can use these affordable devices to augment robotics projects. You can even use the code you write for them on any device with a browser!
+    The firefox os phones were meant to replace feature phones in developing countries, but we'll' talk about the ways we can use these affordable devices to augment robotics projects. You can even use the code you write for them on any device with a browser!
     Also, any apps you write don't have to be submitted to a central app store for distribution- Mozilla gives you all the tools you need to allow installation of your FFOS app from any web site.
     This workshop assumes a basic knowledge of HTML/CSS/JS. We'll walk through using the simulator, defining a FFOS application from your web app, using Phone APIs, and how we can use these to augment existing robotics projects.
   bio: >
-    Speaker bio here!
+    NodeBots are her passion! Kassandra has experience with several different platforms, and am enthusiastic about documentation and teaching others.
+    The platforms she has experience with include arduino, Pinoccio, SparkCore, sphero, AR drones, and adafruit's Gemma and Flora. She also has experience with building wearable tech, and working with RGB LED installations.
 
 
 - firstname: Mike
@@ -198,7 +210,7 @@
   body: >
     I intend to talk for a little bit about my own journey to becoming a Maker (becoming a software engineer, finding a hackerspace accidentally, getting to know people, taking classes) and then give a partially-serious, partially-humourous list and set of anecdotes on "things that happen/how you change when you become a Maker" (serious things like how my job widened and I had new opportunities at work and humourous things like "covert bathroom soldering" and "sparkfun evangelism").
   bio: >
-    Speaker bio here!
+    Jamie has been a career software engineer/computer scientist with NASA for 5 years. She joined the FamiLAB hackerspace in February 2012 and started learning hardware and electronics. Before she knew it, she was spending part of my work time in a rapid-prototyping R&D shop at KSC, teaching soldering at Orlando Mini Maker Faire, becoming treasurer and board member at FamiLAB, and offering arduino classes after work. Jamie distinctly recalls the moment when she realised that she was a Maker, when that switch flipped in her head from user/programmer/consumer to Maker.
 
 
 - firstname: Pawel
@@ -226,7 +238,7 @@
   body: >
     Language Expert!
   bio: >
-    Raquel Vélez is a Software Developer in the Mobile/R&D group at Sauce Labs in San Francisco, integrating her node.js and front-end web development skills with more than a decade of robotics experience. She has previously worked at institutions such as Caltech, NASA JPL, the MIT Lincoln Laboratory, and various universities in Europe. In her off time, you can find her baking, teaching NodeBots not to fall off of tables, and speaking. Also, hanging out with her hilarious husband and two cats dressed in dog suits.
+    Raquel Vélez is a Senior Software Developer at npm, Inc. in Oakland, CA. She has previously worked at institutions such as Caltech, NASA JPL, the MIT Lincoln Laboratory, and various universities in Europe. In her off time, you can find her baking, teaching NodeBots not to fall off of tables, and speaking. Also, hanging out with her hilarious husband and two cats dressed in dog suits.
 
 
 - firstname: Rick
@@ -254,7 +266,7 @@
   body: >
     Node Rockets Guide!
   bio: >
-    Speaker bio here!
+    Thomas A. Valletta, Mobile Architect, Open Web Evangelist, and hack has been developing for the web for fourteen years. His clients range across industries including defence, healthcare, technology, e-commerce, human resources and religion. He has professionally developed native applications for Android, iPhone, WebOS, Blackberry, and Windows. He has engineered solutions using Java, .Net, PHP, JavaScript, Objective C, VBScript and Commodore Basic (I am pretty sure that those last two don't count). He lives outside of Salt Lake City, Utah with his wife and four children.
 
 
 - firstname: Gabriel
@@ -268,5 +280,20 @@
   body: >
     Node Rockets Guide!
   bio: >
-    Speaker bio here!
+    Gabriel is a software developer, innovator, father and husband. He didn't invent the web, HTTP, JavaScript or even rounded corners, and he haven't written a book (yet) or any draft specifications, but he does enjoy the challenge of pushing the limits of technology. He is passionate about spending time with his family, learning everything, messing with technology and evangelizing America's pastime. 
+    Gabriel currently works as a Software Architect for the LDS Church where he has been influential in pushing the web as a strong platform for building applications. He is the founder and current manager of the Utah Google Developer Group where he enjoys interacting with other individuals who are passionate about learning technology. Gabriel has over a decade of experience as a developer and a B.S in Computer Science from Utah Valley University. 
+
+
+- firstname: Persa
+  lastname: Zula
+  visible: true
+  category: staff
+  smurl: http://twitter.com/pzula
+  smtype: twitter
+  smhandle: "pzula"
+  title: RobotsConf Workshop Staff
+  body: >
+    Language Expert!
+  bio: >
+    As web developer from Akron, Ohio, Persa has become intrigued by the potential of web-enabled personal electronics. She has been working on Raspberry Pi and Arduino projects for the past year, and have enjoyed incorporating sensors and automation with web projects. Recently she discovered the SparkCore, and how much easier it has made web-enabled projects! Persa is interested in spreading the love of open-source hardware to makers and doers, as well as how to build small web apps to engage with the environment around us.
   
