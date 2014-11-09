@@ -1,0 +1,110 @@
+
+
+
+- firstname: Nick
+  lastname: Doiron
+  visible: true
+  category: speaker
+  smurl: http://github.com/mapmeld
+  smtype: github
+  smhandle: "mapmeld"
+  title: "Soldering, Wiring, Prototyping"
+  body: >
+    When you build your own robots and gadgets, materials make all the difference. Working with conductive thread and flexible sensors changes what technology can do and how you build prototypes.
+    This talk explores prototyping through One Laptop per Child's drive for cheap, childproof science kits, and a new electronics kit that I am making with needle, thread, and beanbags.
+    This is in part a story about developing DIY sensors that work in remote parts of the world, and finding local engineers to resolder what breaks. It's also a look inside education technology meetups, where projects with science fiction names were dreamed up, manufactured, and put to the test. The successes and failures of these prototypes point to a future for open hardware in education and the maker movement.
+  bio: >
+    Nick Doiron is a developer and mapmaker. He works on websites, hardware projects, and open source libraries at the Museum of Modern Art (MoMA) in New York City.
+
+
+- firstname: Kristina
+  lastname: Durivage
+  visible: true
+  category: speaker
+  smurl: http://twitter.com/gelicia
+  smtype: twitter
+  smhandle: "gelicia"
+  title: Wearables
+  body: >
+    Adding technology to clothing comes with some unique challenges. Instead of buying special technology for wearable items (the sew in Lilypad or Flora components, for example), you can design your wearable item to work well with electrical components you can buy anywhere. I’ll talk about the various things I’ve done for the wearable technology items I’ve created and give some tips that can be used on a wearable project of your own.
+  bio: >
+    Kristina Durivage is an independent software developer interested in data visualization and making the world a brighter place with LEDs. She lives in Minneapolis, Minnesota.
+
+
+- firstname: Suz
+  lastname: Hinton
+  visible: true
+  category: staff
+  smurl: http://twitter.com/noopkat
+  smtype: twitter
+  smhandle: "noopkat"
+  title: "3D Printing and Modern Fabrication"
+  bio: >
+    Susan Hinton is a web developer by day, and hobby enthusiast by night. She's currently heavily immersed in the 3D printing scene, teaching and enabling others in the technology. Her latest weapon of choice is a Printrbot Jr, which has been tricked out with upgrades and experiments. In 2011, she released a 3D printed jewelry range at http://owlposse.com. Her idea of an ideal Friday night is 3D modeling jewelry and robots, accompanied by a glass or two of quality scotch. As a board member of SYN Shop the Las Vegas hackerspace, Susan maintains the rapid prototyping station there. She also runs a newsletter called 3D Print Weekly over at 3dprintweekly.com. She's probably attempting to 3D print a cat right now.
+
+
+- firstname: Bryan
+  lastname: Hughes
+  visible: true
+  category: speaker
+  smurl: http://twitter.com/nebrius
+  smtype: twitter
+  smhandle: "nebrius"
+  title: Electronic Fundamentals
+  body: >
+    There comes a time when every roboticist builds a circuit that just doesn’t work, and they have to break out a multimeter to figure out what went wrong. Knowing how a multimeter works is just half the challenge though.
+    Using a multimeter isn’t that different from using a software debugger. You need to know how to operate the tool of course, but you also need to know how to approach problems methodically such that you rule out possible issues until the culprit is found. This workshop will teach attendees how to use a multimeter to systematically debug problems in circuits by relating it to debugging software.
+    The workshop will start with an overview of how to operator a multimeter, including how to measure voltage, current, and resistance. If necessary, an overview of these concepts and Ohm’s law will be covered. Attendees will measure the voltage of a battery, the resistance of a resistor, and the current through the resistor when connected to the battery. This will be the “see, the math works!” moment.
+    Second half of the workshop will discuss common steps to take when diagnosing problems by trying to solve an actual broken circuit. The things that one should always check when diagnosing circuits that will be covered are:
+    Check if there is power, analogous to “is this method being called”
+    Check if the wires are connected correctly, analogous to “am I passing the correct number of arguments”
+    Check if the signal passed on the wire is the correct type, analogous to “am I passing the correct types/values for each argument”
+    Possible ideas for a broken circuit include a sensor board with a bad solder joint on a ground/power pin, a bad wire used to connect to a servo, etc. I will ensure that whatever problem there is does not introduce a short circuit for safety reasons, of course.
+  bio: >
+    Bryan Hughes is a front-end developer at Rdio and an organizer for the NodeBots SF meetup group. He went to college for a Ph.D. in electrical engineering, but wandered into JavaScript through a fortuitous serious of events.
+    "Back in his day," Bryan created robots using C and 68k assembly that took weeks to create. He still enjoys building robots today, just without the C and assembly code. He typically prefers working with the Raspberry Pi, having added support for it in Johnny-Five with the raspi-io plugin.
+    In his spare time, you can find him wine tasting or enjoying the arts with his awesome wife and attempting to be an amateur photographer.
+
+
+
+- firstname: Kassandra
+  lastname: Perch
+  visible: true
+  category: speaker
+  smurl: http://twitter.com/nodebotanist
+  smtype: twitter
+  smhandle: "nodebotanist"
+  title: "Interaction Interfaces"
+  body: >
+    Are you looking for a touchscreen for your project? How about a separate accelerometer? A camera? Sound? You can add all of these to your project for $80, programmed in web tech.
+    The firefox os phones were meant to replace feature phones in developing countries, but we'll' talk about the ways we can use these affordable devices to augment robotics projects. You can even use the code you write for them on any device with a browser!
+    Also, any apps you write don't have to be submitted to a central app store for distribution- Mozilla gives you all the tools you need to allow installation of your FFOS app from any web site.
+    This workshop assumes a basic knowledge of HTML/CSS/JS. We'll walk through using the simulator, defining a FFOS application from your web app, using Phone APIs, and how we can use these to augment existing robotics projects.
+  bio: >
+    NodeBots are her passion! Kassandra has experience with several different platforms, and am enthusiastic about documentation and teaching others.
+    The platforms she has experience with include arduino, Pinoccio, SparkCore, sphero, AR drones, and adafruit's Gemma and Flora. She also has experience with building wearable tech, and working with RGB LED installations.
+
+
+- firstname: Mike
+  lastname: Skalnik
+  visible: true
+  category: staff
+  smurl: http://twitter.com/skalnik
+  smtype: twitter
+  smhandle: "skalnik"
+  title: 3D Printing
+  bio: >
+    Mike is a developer at GitHub. After having good friends playing with hardware for many years, he was inspired to bring some of this to GitHub. Starting with a 3D printer (now controlled by their company chat bot, Hubot), he has slowly worked to reignite the hardware hacking culture and make it easier for the open source hardware community to leverage GitHub for their needs.
+
+
+- firstname: Pawel
+  lastname: Szymczykowski
+  visible: true
+  category: staff
+  smurl: http://twitter.com/makenai
+  smtype: twitter
+  smhandle: "makenai"
+  title: Hackerspaces
+  bio: >
+    Pawel Szymczykowski is a software engineer at Zappos Labs (but his business card says "King of Goblins) and a proud member of the growing #VegasTech community. He is one of the board members of SYN Shop, a local hackerspace, and likes to tinker with a little bit of everything. He tries takes part in as many community projects like Downtown Podcast and Vegas Vernacular as possible while keeping his job, and enjoys organizing events like Mini Maker Faire and Nodebots Day with Susan Hinton and other trusted friends. Often leaps before looking, and it's seemed to work OK so far.
+

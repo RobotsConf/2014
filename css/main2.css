@@ -360,7 +360,7 @@ body .speaker.hover {background-position: 15px -136px !important;  }
   	line-height:37px;
   }
   .navbar-nav li.yellow-link a  {color: #fff;line-height:10px;margin-top:14px;margin-left:20px;}
-  
+
   h1 {
   	font-size: 24px;
   	letter-spacing: 2px;
@@ -375,10 +375,10 @@ body .speaker.hover {background-position: 15px -136px !important;  }
 	  	/*font-size: 85%; padding: 3px;}*/
 	}
   .navbar-nav li.yellow-link a  {  font-size:9px;margin-left:0px;}
-  
+
 }
 @media screen and (max-width: 766px) {
-    .navbar-nav li.yellow-link a { margin:20px 10% 0 10%;}   
+    .navbar-nav li.yellow-link a { margin:20px 10% 0 10%;}
 }
 @media screen and (max-width: 470px) {
     h3.yellow-link a {font-size:18px;}
@@ -393,3 +393,8 @@ body .speaker.hover {background-position: 15px -136px !important;  }
 	font-style: italic;
 	margin-bottom: 6px;
 }
+
+
+.speaker h3 { margin-top: 0;}
+
+.speaker-block { margin: 40px 0px;}
