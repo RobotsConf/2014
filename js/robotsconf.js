@@ -97,7 +97,17 @@ function activateMenu(key) {
 function setTwitter() {
 	$("#tweet").html("Early Bird Tickets are almost sold out, be sure to <a href='http://tickets.robotsconf.com/'>pick up yours</a> soon!");
 }
+
+$( document ).ready(function() {
+  if($(window).width() > 992) {
+      $('.equalHeight').each(function() {
+        var eHeight = $(this).innerHeight();
+        $(this).find('div').outerHeight(eHeight);
+      })
+    };
+});
 $(function () {
+  
 	// if (setTime())
 	// 	setInterval(setTime, 1000);
 	// if ($("#front-page").length) {

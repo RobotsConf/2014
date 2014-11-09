@@ -186,7 +186,7 @@ em { font-style: normal; color: #ff5200; font-weight: bold;}
 
 .yellow-link a, .yellow-link a:visited, .yellow-link a:link {border-radius:5px; background: #ff5200; text-decoration: none; color:white;font-weight:bold; font-weight: 700; }
 
-.navbar-nav li.yellow-link a  {  color: #fff;line-height:10px;margin-top:18px;}
+.navbar-nav li.yellow-link a  {  color: #fff;line-height:10px;margin-top:18px; margin-left:100px;}
 
 #get-me-there { background: #ffe13c; text-decoration: underline; color:#4e4e70; text-decoration:none;  font-weight: 700; padding: 8px; text-align: center; display:block; font-weight: bold; font-size: 20px;}
 .yellow-link a:hover, #get-me-there:hover,.navbar-nav li.yellow-link a:hover { background: black; color:white;}
@@ -356,6 +356,21 @@ hr.soften {
   background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
   border: 0;
 }
+.vertical_left {
+  padding-left:50px;
+  background: transparent url(/img/rc-logo-long-fade-slim.png) center left no-repeat ;
+}
+.vertical_right {
+  padding-right:50px;
+  background: transparent url(/img/rc-logo-long-fade-slim.png) center right no-repeat ;
+}
+@media screen and (max-width: 991px) {
+  .vertical_right, .vertical_left {
+    padding:0 15px;
+    background-image:none;
+  }
+  
+}
 
 @media screen and (max-width: 1200px) and (min-width: 768px) {
   .navbar-brand img {
@@ -368,8 +383,8 @@ hr.soften {
   	font-size: 85%; padding: 8px;
   	line-height:37px;
   }
-  .navbar-nav li.yellow-link a  {color: #fff;line-height:10px;margin-top:14px;margin-left:20px;}
-
+  .navbar-nav li.yellow-link a  {color: #fff;line-height:10px;margin-top:14px;margin-left:20px; margin-left:215px;}
+  
   h1 {
   	font-size: 24px;
   	letter-spacing: 2px;
@@ -383,11 +398,11 @@ hr.soften {
  	.nav>li>a{
 	  	/*font-size: 85%; padding: 3px;}*/
 	}
-  .navbar-nav li.yellow-link a  {  font-size:9px;margin-left:0px;}
-
+  .navbar-nav li.yellow-link a  {  font-size:9px;margin-left:0px;margin-left:15px;}
+  
 }
 @media screen and (max-width: 766px) {
-    .navbar-nav li.yellow-link a { margin:20px 10% 0 10%;}
+    .navbar-nav li.yellow-link a { margin:20px 10% 0 10%;}   
 }
 @media screen and (max-width: 470px) {
     h3.yellow-link a {font-size:18px;}
@@ -402,8 +417,3 @@ hr.soften {
 	font-style: italic;
 	margin-bottom: 6px;
 }
-
-
-.speaker h3 { margin-top: 0;}
-
-.speaker-block { margin: 40px 0px;}
