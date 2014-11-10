@@ -369,7 +369,7 @@ hr.soften {
     padding:0 15px;
     background-image:none;
   }
-  
+
 }
 
 @media screen and (max-width: 1200px) and (min-width: 768px) {
@@ -384,7 +384,7 @@ hr.soften {
   	line-height:37px;
   }
   .navbar-nav li.yellow-link a  {color: #fff;line-height:10px;margin-top:14px;margin-left:20px; margin-left:215px;}
-  
+
   h1 {
   	font-size: 24px;
   	letter-spacing: 2px;
@@ -399,10 +399,10 @@ hr.soften {
 	  	/*font-size: 85%; padding: 3px;}*/
 	}
   .navbar-nav li.yellow-link a  {  font-size:9px;margin-left:0px;margin-left:15px;}
-  
+
 }
 @media screen and (max-width: 766px) {
-    .navbar-nav li.yellow-link a { margin:20px 10% 0 10%;}   
+    .navbar-nav li.yellow-link a { margin:20px 10% 0 10%;}
 }
 @media screen and (max-width: 470px) {
     h3.yellow-link a {font-size:18px;}
@@ -417,3 +417,7 @@ hr.soften {
 	font-style: italic;
 	margin-bottom: 6px;
 }
+
+
+.speaker .name h3 { margin-top: 0px;}
+#speaker-listing h1 { margin-bottom: 40px;}
