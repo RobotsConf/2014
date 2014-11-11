@@ -12,7 +12,7 @@
     For the vision part we are using two webcams mounted on the servo system that can see in the same direction the user sees, this is real time streamed to a computer and can be visualized on the Oculus Rift headset plugged to this computer in a different location that the OculusHead is located. There are several filters applied to the source image to give the full immersive experience including the depth that's needed for the headset.
     The software part is implemented using JavaScript and node.js and libraries like vr.js, three.js, johnny-five and socket.io. We are currently working on printing a full head (based on InMoov project) and implementing more features of computer vision like face recognition and more image processing.
   bio: >
-    NodeBots Guatemala co-organizer, maker, CS engineer and tech enthusiast. I lead a Lab in Galileo University that gives workshops on making using Arduino, Raspberry Pi and BeagleBone black. Also, I'm a RobotsConf '13 alumni!
+    Educator, tinkerer and software developer. Elemental Geeks co-founder, Innovation Lab @ GalileoU lead, Android GDE, NodeBots Guatemala & GDG Guatemala co-organizer. Firmly believer in the power of community. From Galileo University he is trying to empower as many people as possible in latam to become makers. He started Engineering Kickstart a program for high schoolers to get started into coding and basic electronics, to get them excited about tech, to let them connect with mentors and make them cross the line from users to makers.
 
 - firstname: Brady
   lastname: Forrest
