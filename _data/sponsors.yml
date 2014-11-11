@@ -135,6 +135,18 @@
     development kit ideal for prototyping, and use Spark OS, a complete
     open-source operating system to bring your cloud-connected product to the
     masses.
+- name: Apigee
+  visible: true
+  short: apigee
+  logo: apigee.png
+  url: http://apigee.com/about/
+  event:
+  description: >
+    Apigee provides a leading technology platform for APIs and big data. Apigee
+    customers include global enterprises such as Walgreens, eBay, Shell, Live
+    Nation, Kaiser Permanente and Sears. Apigee is headquartered in San Jose,
+    California and has about 500 employees worldwide.
+
 - name: Bitcraze
   visible: true
   short: bitcraze
