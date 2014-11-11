@@ -1,4 +1,5 @@
 
+
 function f(e) {
 	e.stopPropagation();
 	e.preventDefault();
@@ -33,7 +34,7 @@ function equalHeight() {
   });
 }
 
-$(function () {
+$(window).load(function () {
   equalHeight();
   $(window).resize(equalHeight);
 });
