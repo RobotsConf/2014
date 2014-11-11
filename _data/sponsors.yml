@@ -106,6 +106,26 @@
     printers to get the job done. LulzBot is a product line of Aleph Objects,
     Inc., an Open Source Hardware company founded in January 2011 and
     headquartered in Loveland, Colorado, USA.
+
+- name: Pebble
+  visible: true
+  short: pebble
+  logo: pebble.png
+  url: https://getpebble.com/
+  event:
+  description: >
+    For those who haven’t kept up with the wearables market over the last year
+    or so, you may not be aware of Pebble. Pebble is the smartwatch that
+    68,000+ people brought to life, crowdfunding a record $10.3MM on
+    Kickstarter, and put wearable technology on the map. With a vibrant
+    developer community and thriving ecosystem, Pebble is the platform for the
+    best and brightest wearable apps.
+    [Pebble SDK 2](https://developer.getpebble.com/2/) invites developers to
+    build unique, delightful, and practical apps that push the boundaries of
+    what smartwatches can do.
+
+=======
+>>>>>>> master
 - name: Pinoccio
   visible: true
   short: pinoccio
