@@ -1,0 +1,56 @@
+
+- firstname: Adrian
+  lastname: Catalan
+  visible: true
+  category: speaker
+  smurl: http://twitter.com/ykro
+  smtype: twitter
+  smhandle: "ykro"
+  title: OculusHead (Keynote)
+  body: >
+    The project is a 3D printed robotic head for a telepresence immersive experience, the project includes movement of the 3D printed head and computer vision. Using the accelerometer that the Oculus Rift headset provides we are moving several servos that have webcams mounted, the goal is to mimic remotely the moves of a person wearing the headset. We have a node.js apps that obtains this data, process it and translate it to actuators plugged to an Arduino, OculusHead have movement on 3-axis with servos simulating almost all of the possible movements of a human head.
+    For the vision part we are using two webcams mounted on the servo system that can see in the same direction the user sees, this is real time streamed to a computer and can be visualized on the Oculus Rift headset plugged to this computer in a different location that the OculusHead is located. There are several filters applied to the source image to give the full immersive experience including the depth that's needed for the headset.
+    The software part is implemented using JavaScript and node.js and libraries like vr.js, three.js, johnny-five and socket.io. We are currently working on printing a full head (based on InMoov project) and implementing more features of computer vision like face recognition and more image processing.
+  bio: >
+    Educator, tinkerer and software developer. Elemental Geeks co-founder, Innovation Lab @ GalileoU lead, Android GDE, NodeBots Guatemala & GDG Guatemala co-organizer. Firmly believer in the power of community. From Galileo University he is trying to empower as many people as possible in latam to become makers. He started Engineering Kickstart a program for high schoolers to get started into coding and basic electronics, to get them excited about tech, to let them connect with mentors and make them cross the line from users to makers.
+
+- firstname: Brady
+  lastname: Forrest
+  visible: false
+  category: speaker
+  smurl: http://twitter.com/brady
+  smtype: twitter
+  smhandle: "brady"
+  title: From Idea to Product
+  body: >
+
+  bio: >
+    Brady is Vice President at Highway1, PCH’s incubator program. A prolific speaker and maker on the geek scene, Brady can be found at speaking engagements around the world, inventing new forms of transportation at Burning Man, or creating in the Highway1 San Francisco workshop. Additionally, Brady writes for O’Reilly Radar, tracking changes in technology. Brady is the founder of Ignite, a geek event which has spread to over a hundred cities worldwide.
+
+
+- firstname: Scott
+  lastname: Penberthy
+  visible: false
+  category: speaker
+  smurl: http://twitter.com/scottpenberthy
+  smtype: twitter
+  smhandle: "scottpenberthy"
+  title: New DaVinci - Inspiring The Next 10 Years
+  body: >
+
+  bio: >
+    Scott Penberthy is a technologist and instigator of transformation, always fascinated with the new, new thing. Most recently Scott was CTO of AppOrchard and CEO of North Highland Partners, building iOS apps for enterprises, writing books about iOS programming, and consulting on cloud computing. He held several leadership roles in technology at high profile startups of Gilt Groupe, Photobucket, ad Heavy from 2005-2009. Previously he led the development of new, emerging services at IBM like On Demand and Grid Computing, a precursor to cloud computing. His early career was spent in research writing and building software that evolved into the IBM WebSphere and IBM Web Hosting business lines. Scott holds advanced degrees in computer science from MIT and the University of Washington, is a published iPhone author, and enjoys triathlons, music, great food and travel.
+
+
+- firstname: Jamie
+  lastname: Szafran
+  visible: true
+  category: speaker
+  smurl: http://twitter.com/darkmoonsinger
+  smtype: twitter
+  smhandle: "darkmoonsinger"
+  title: Becoming A Maker
+  body: >
+    I intend to talk for a little bit about my own journey to becoming a Maker (becoming a software engineer, finding a hackerspace accidentally, getting to know people, taking classes) and then give a partially-serious, partially-humourous list and set of anecdotes on "things that happen/how you change when you become a Maker" (serious things like how my job widened and I had new opportunities at work and humourous things like "covert bathroom soldering" and "sparkfun evangelism").
+  bio: >
+    Jamie has been a career software engineer/computer scientist with NASA for 5 years. She joined the FamiLAB hackerspace in February 2012 and started learning hardware and electronics. Before she knew it, she was spending part of my work time in a rapid-prototyping R&D shop at KSC, teaching soldering at Orlando Mini Maker Faire, becoming treasurer and board member at FamiLAB, and offering arduino classes after work. Jamie distinctly recalls the moment when she realised that she was a Maker, when that switch flipped in her head from user/programmer/consumer to Maker.
