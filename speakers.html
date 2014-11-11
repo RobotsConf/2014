@@ -3,33 +3,127 @@ layout: default
 title: "RobotsConf Speakers and Workshop Guides"
 id: speakers
 ---
+<div id='speaker-listing'>
 <div class="container">
-{% for speaker in site.data.speakers %}
-{% if speaker.visible %}
-<div class='col-md-12'>
-<div class='speaker clearfix' id='{{speaker.lastname | downcase}}'>
-  <div class='pull-right socialmedia'>
-  {% if speaker.smurl %}
-    <a href='{{speaker.smurl}}' class='{{speaker.smtype}}'>
-      <i class='fa fa-{{speaker.smtype}}-square'></i>
-      {{speaker.smhandle}}
-    </a>
-  {% endif %}
+  <div class='row '>
+    <div class='col-md-12'>
+      <h1 class="featurette-heading mtop">Our Awesome Keynote Speakers!</h1>
+    </div>
+
   </div>
-  <div class='pic'><img src='/img/speakers/{{speaker.lastname | downcase}}.jpg' alt='{{speaker.firstname}} {{speaker.lastname}}'/></div>
-  <div class='name'>
-    <h3>{{speaker.firstname}} {{speaker.lastname}}</h3>
-  </div>
-  <div class='talk'>
-    <div class='title'>{{speaker.title}}</div>
-    {{speaker.body | markdownify}}
-  </div>
-  <div class='bio'>
-    <div class='title'>Meet {{speaker.firstname}}</div>
-    {{speaker.bio | markdownify}}
+  <div class='speaker-block'>
+    {% for speaker in site.data.keynotes %}
+    {% if speaker.visible  %}
+    <div class='row'>
+      <div class='col-md-12'>
+        <div class='speaker clearfix' id='{{speaker.lastname | downcase}}'>
+          <div class='pull-right socialmedia'>
+          {% if speaker.smurl %}
+            <a href='{{speaker.smurl}}' class='{{speaker.smtype}}'>
+              <i class='fa fa-{{speaker.smtype}}-square'></i>
+              {{speaker.smhandle}}
+            </a>
+          {% endif %}
+          </div>
+          <div class='pull-left pic'><img class=" img-thumbnail" src='/img/speakers/{{speaker.lastname | downcase}}.png' alt='{{speaker.firstname}} {{speaker.lastname}}'/></div>
+          <div class='name'>
+            <h3>{{speaker.firstname}} {{speaker.lastname}}</h3>
+          </div>
+          <div class='talk'>
+            <div class='title'>{{speaker.title}}</div>
+            {{speaker.body | markdownify}}
+          </div>
+          <div class='bio'>
+            <div class='title'>Meet {{speaker.firstname}}</div>
+            {{speaker.bio | markdownify}}
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endif %}
+    {% endfor %}
   </div>
 </div>
+
+<div class="container">
+  <div class='row '>
+    <div class='col-md-12'>
+      <h1 class="featurette-heading mtop">The Incredible Workshop Directors!</h1>
+    </div>
+
+  </div>
+  <div class='speaker-block'>
+    {% for speaker in site.data.workshops %}
+    {% if speaker.visible  %}
+    <div class='row'>
+      <div class='col-md-12'>
+        <div class='speaker clearfix' id='{{speaker.lastname | downcase}}'>
+          <div class='pull-right socialmedia'>
+          {% if speaker.smurl %}
+            <a href='{{speaker.smurl}}' class='{{speaker.smtype}}'>
+              <i class='fa fa-{{speaker.smtype}}-square'></i>
+              {{speaker.smhandle}}
+            </a>
+          {% endif %}
+          </div>
+          <div class='pull-left pic'><img class=" img-thumbnail" src='/img/speakers/{{speaker.lastname | downcase}}.png' alt='{{speaker.firstname}} {{speaker.lastname}}'/></div>
+          <div class='name'>
+            <h3>{{speaker.firstname}} {{speaker.lastname}}</h3>
+          </div>
+          <div class='talk'>
+            <div class='title'>Workshop: {{speaker.title}}</div>
+          </div>
+          <div class='bio'>
+            <div class='title'>Meet {{speaker.firstname}}</div>
+            {{speaker.bio | markdownify}}
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
 </div>
-{% endif %}
-{% endfor %}
+
+
+<div class="container">
+  <div class='row '>
+    <div class='col-md-12'>
+      <h1 class="featurette-heading mtop">The Radical Domain Experts!</h1>
+    </div>
+
+  </div>
+  <div class='speaker-block'>
+    {% for speaker in site.data.helpers %}
+    {% if speaker.visible  %}
+    <div class='row'>
+      <div class='col-md-12'>
+        <div class='speaker clearfix' id='{{speaker.lastname | downcase}}'>
+          <div class='pull-right socialmedia'>
+          {% if speaker.smurl %}
+            <a href='{{speaker.smurl}}' class='{{speaker.smtype}}'>
+              <i class='fa fa-{{speaker.smtype}}-square'></i>
+              {{speaker.smhandle}}
+            </a>
+          {% endif %}
+          </div>
+          <div class='pull-left pic'><img class=" img-thumbnail" src='/img/speakers/{{speaker.lastname | downcase}}.png' alt='{{speaker.firstname}} {{speaker.lastname}}'/></div>
+          <div class='name'>
+            <h3>{{speaker.firstname}} {{speaker.lastname}}</h3>
+          </div>
+          <div class='talk'>
+            <div class='title'>Special Power(s): {{speaker.title}}</div>
+          </div>
+          <div class='bio'>
+            <div class='title'>Meet {{speaker.firstname}}</div>
+            {{speaker.bio | markdownify}}
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
 </div>

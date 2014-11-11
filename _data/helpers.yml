@@ -1,0 +1,131 @@
+
+- firstname: Jay
+  lastname: Beavers
+  visible: true
+  category: staff
+  smurl: http://twitter.com/jay_beavers
+  smtype: twitter
+  smhandle: "jay_beavers"
+  title: Windows Expert
+  bio: >
+    Jay enjoys Arduinos, Embedded Linux, Laser Cutters, 9-axis inertial measurement units, and Primesense sensors. Need we say more?
+
+
+- firstname: Donovan
+  lastname: Buck
+  visible: True
+  category: staff
+  smurl: http://twitter.com/dtex
+  smtype: twitter
+  smhandle: "dtex"
+  title: Node.js / JS Expert
+  bio: >
+    Donovan studied computer science at the University of Houston and continues to further his programming knowledge at key industry events, including JSConf, NodeConf and TXJS. He is also a regular contributor to Johnny-Five, an open-source framework for programming robots using JavaScript.
+
+
+
+- firstname: Gabriel
+  lastname: Dayley
+  visible: true
+  category: staff
+  smurl: http://twitter.com/gmdayley
+  smtype: twitter
+  smhandle: "gmdayley"
+  title: Rockets Expert
+  bio: >
+    Gabriel is a software developer, innovator, father and husband. He didn't invent the web, HTTP, JavaScript or even rounded corners, and he haven't written a book (yet) or any draft specifications, but he does enjoy the challenge of pushing the limits of technology. He is passionate about spending time with his family, learning everything, messing with technology and evangelizing America's pastime.
+    Gabriel currently works as a Software Architect for the LDS Church where he has been influential in pushing the web as a strong platform for building applications. He is the founder and current manager of the Utah Google Developer Group where he enjoys interacting with other individuals who are passionate about learning technology. Gabriel has over a decade of experience as a developer and a B.S in Computer Science from Utah Valley University.
+
+
+
+
+
+- firstname: Sara
+  lastname: Gorecki
+  visible: true
+  category: staff
+  smurl: http://twitter.com/opheliasdaisies
+  smtype: twitter
+  smhandle: "opheliasdaisies"
+  title: Boats Expert
+  bio: >
+    Sara began working in marketing in 2010, and repeatedly found herself in roles with strong technical components. She was consistently the most technical person on her team (and the nerdiest). After managing the development of an iPad application, she realized she wanted to start creating technology, not just using it.
+    She began teaching herself programming in 2012, and when she left marketing and began working at New York University, Sara finally had a schedule that would let her explore and develop a passion for code. She took one course through Girl Develop It, then promptly took all the other courses they offered in New York.
+    While planning a conference for the Information Systems department at NYU, Sara dove into the website’s code to update it herself. She loved it (and developed a deep respect for well-formatted code). She began putting any spare moments at work towards rebuilding the website, and those were the best moments at work she had ever had. She was hooked.
+
+
+
+
+- firstname: Francis
+  lastname: Gulotta
+  visible: true
+  category: staff
+  smurl: http://twitter.com/reconbot
+  smtype: twitter
+  smhandle: "reconbot"
+  title: Electronics Expert
+  bio: >
+    Francis is a long time developer and technologist. He's run development teams for hedge funds, tech startups, and private education. He loves teaching, javascript and robots.
+
+- firstname: Hybrid
+  lastname: Group
+  visible: true
+  category: staff
+  smurl: http://twitter.com/hybrid_group
+  smtype: twitter
+  smhandle: "hybrid_group"
+  title: "Ruby, Go, JS Experts"
+  bio: >
+    At The Hybrid Group, we are passionate about making useful things with
+    technology. Based in Los Angeles and San Francisco, California, our
+    software developers & designers specialize in JavaScript, Go, Ruby, Cloud
+    Computing, the Internet of Things, Application Design, and most importantly,
+    helping you solve problems. Find out more at [hybridgroup.com](http://hybridgroup.com)
+
+
+- firstname: Tom
+  lastname: Valletta
+  visible: true
+  category: staff
+  smurl: http://twitter.com/tvalletta
+  smtype: twitter
+  smhandle: "tvalletta"
+  title: Rockets Expert
+  bio: >
+    Thomas A. Valletta, Mobile Architect, Open Web Evangelist, and hack has been developing for the web for fourteen years. His clients range across industries including defence, healthcare, technology, e-commerce, human resources and religion. He has professionally developed native applications for Android, iPhone, WebOS, Blackberry, and Windows. He has engineered solutions using Java, .Net, PHP, JavaScript, Objective C, VBScript and Commodore Basic (I am pretty sure that those last two don't count). He lives outside of Salt Lake City, Utah with his wife and four children.
+
+- firstname: Raquel
+  lastname: Velez
+  visible: true
+  category: staff
+  smurl: http://twitter.com/rockbot
+  smtype: twitter
+  smhandle: "rockbot"
+  title:  Node.js / Robotics Expert
+  bio: >
+    Raquel Vélez is a Senior Software Developer at npm, Inc. in Oakland, CA. She has previously worked at institutions such as Caltech, NASA JPL, the MIT Lincoln Laboratory, and various universities in Europe. In her off time, you can find her baking, teaching NodeBots not to fall off of tables, and speaking. Also, hanging out with her hilarious husband and two cats dressed in dog suits.
+
+
+- firstname: Rick
+  lastname: Waldron
+  visible: true
+  category: staff
+  smurl: http://twitter.com/rwaldron
+  smtype: twitter
+  smhandle: "rwaldron"
+  title: Node.js / JavaScript Expert
+  bio: >
+    Rick Waldron is an open source software engineer at Bocoup and creator of Johnny-Five, the JavaScript Arduino programming framework for Node.js. In addition to being a core committer to jQuery, Rick sits on the jQuery Foundation's Board of Directors and serves as a representative to ECMA/TC39, forging the future of the JavaScript programming language. Though sometimes abrasive, Rick is actually a nice guy.
+
+
+- firstname: Persa
+  lastname: Zula
+  visible: true
+  category: staff
+  smurl: http://twitter.com/pzula
+  smtype: twitter
+  smhandle: "pzula"
+  title: Python Expert
+  bio: >
+    As web developer and farmer from Akron, Ohio, Persa Zula has become intrigued by the potential of web-enabled personal electronics. She has worked on Raspberry Pi and Arduino projects for the past year, and has enjoyed incorporating sensors and automation with web projects. Recently she's discovered the SparkCore, and it has made web-enabled projects so much easier! Persa is interested in spreading the love of open-source hardware to makers and doers, as well as how to build small web apps to engage with the environment around us.
+
