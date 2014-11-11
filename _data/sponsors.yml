@@ -1,26 +1,14 @@
-- name: Apigee
-  visible: true
-  short: apigee
-  logo: apigee.png
-  url: http://apigee.com/about/
-  event:
-  description: >
-    Apigee provides a leading technology platform for APIs and big data. Apigee
-    customers include global enterprises such as Walgreens, eBay, Shell, Live
-    Nation, Kaiser Permanente and Sears. Apigee is headquartered in San Jose,
-    California and has about 500 employees worldwide.
 
-- name: Bitcraze
+- name: Microsoft
   visible: true
-  short: bitcraze
-  logo: bitcraze.png
-  url: http://www.bitcraze.se
+  short: microsoft
+  logo: microsoft.png
+  url: http://www.microsoft.com
   event:
   description: >
-    Bitcraze AB was created in 2011 by the designers of the Crazyflie
-    quadcopter. The purpose of the company is to finance the development and
-    manufacturing of a Crazyflie kit and to make it available as an opensource
-    development platform.
+    Founded in 1975, Microsoft is the worldwide leader in software, services
+    and solutions that help people and businesses realize their full potential.
+
 
 - name: Bloomberg
   visible: true
@@ -74,6 +62,24 @@
     collaboration and code sharing on any device. Start collaborating today—open
     source project hosting is free!
 
+- name: Vistaprint
+  visible: true
+  short: vistaprint
+  logo: vistaprint.png
+  url: http://www.vistaprint.com
+  event:
+  description: >
+    Vistaprint N.V. (Nasdaq:VPRT) empowers more than 16 million micro
+    businesses and consumers annually with affordable, professional options to
+    make an impression. With a unique business model supported by proprietary
+    technologies, high-volume production facilities, and direct marketing
+    expertise, Vistaprint offers a wide variety of products and services that
+    micro businesses can use to expand their business. A global company,
+    Vistaprint employs over 5,100 people, operates more than 30 localized
+    websites globally and ships to more than 130 countries around the world.
+    Vistaprint's broad range of products and services are easy to access
+    online, 24 hours a day at [www.vistaprint.com](http://www.vistaprint.com/).
+
 - name: The Hybrid Group
   visible: true
   short: hybridgroup
@@ -100,17 +106,6 @@
     printers to get the job done. LulzBot is a product line of Aleph Objects,
     Inc., an Open Source Hardware company founded in January 2011 and
     headquartered in Loveland, Colorado, USA.
-
-- name: Microsoft
-  visible: true
-  short: microsoft
-  logo: microsoft.png
-  url: http://www.microsoft.com
-  event:
-  description: >
-    Founded in 1975, Microsoft is the worldwide leader in software, services
-    and solutions that help people and businesses realize their full potential.
-
 - name: Pinoccio
   visible: true
   short: pinoccio
@@ -140,6 +135,29 @@
     development kit ideal for prototyping, and use Spark OS, a complete
     open-source operating system to bring your cloud-connected product to the
     masses.
+- name: Apigee
+  visible: true
+  short: apigee
+  logo: apigee.png
+  url: http://apigee.com/about/
+  event:
+  description: >
+    Apigee provides a leading technology platform for APIs and big data. Apigee
+    customers include global enterprises such as Walgreens, eBay, Shell, Live
+    Nation, Kaiser Permanente and Sears. Apigee is headquartered in San Jose,
+    California and has about 500 employees worldwide.
+
+- name: Bitcraze
+  visible: true
+  short: bitcraze
+  logo: bitcraze.png
+  url: http://www.bitcraze.se
+  event:
+  description: >
+    Bitcraze AB was created in 2011 by the designers of the Crazyflie
+    quadcopter. The purpose of the company is to finance the development and
+    manufacturing of a Crazyflie kit and to make it available as an opensource
+    development platform.
 
 - name: Technical Machine
   visible: true
@@ -164,21 +182,3 @@
     lets IoT programmers connect devices to a Library of 2000+ processes for
     100+ APIs, databases, and code utilities. We’re making connected devices
     behave more intelligently and flexibly—visit Temboo.com/iot to learn more!
-
-- name: Vistaprint
-  visible: true
-  short: vistaprint
-  logo: vistaprint.png
-  url: http://www.vistaprint.com
-  event:
-  description: >
-    Vistaprint N.V. (Nasdaq:VPRT) empowers more than 16 million micro
-    businesses and consumers annually with affordable, professional options to
-    make an impression. With a unique business model supported by proprietary
-    technologies, high-volume production facilities, and direct marketing
-    expertise, Vistaprint offers a wide variety of products and services that
-    micro businesses can use to expand their business. A global company,
-    Vistaprint employs over 5,100 people, operates more than 30 localized
-    websites globally and ships to more than 130 countries around the world.
-    Vistaprint's broad range of products and services are easy to access
-    online, 24 hours a day at [www.vistaprint.com](http://www.vistaprint.com/).
