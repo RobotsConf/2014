@@ -61,16 +61,25 @@ id: register
   </div>
   <div class="container">
     <div class="row">
-      <div class="col-lg-12 center-block">
+      <div class="col-lg-6 center-block">
+
         <h3 class='yellow-link' style="margin:50px auto;">
           <center>
             <a style="margin:0px auto;" href="http://tickets.robotsconf.com/">Tickets Available Today!</a>
           </center>
-        </h3>        
+        </h3>
+      </div>
+      <div class="col-lg-6 center-block">
+
+        <h3 class='yellow-link' style="margin:50px auto;">
+          <center>
+            <a style="margin:0px auto;" href="https://gitter.im/RobotsConf/2014">Chat With Us!</a>
+          </center>
+        </h3>
       </div>
     </div>
   </div>
-  
+
 
 
 
@@ -164,7 +173,7 @@ id: register
   	<div class="col-md-12">
       <h2 class="featurette-heading " style="text-align: center">Sponsored By These Amazing Companies</h2>
       <div id='sponsors'>
-        <div class='clearfix'>    
+        <div class='clearfix'>
             {% for sponsor in site.data.sponsors %}
               {%if sponsor.visible %}
                 <a
