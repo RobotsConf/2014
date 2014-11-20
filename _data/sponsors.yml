@@ -141,6 +141,19 @@
     and built-in radio. It’s also an API to get your board talking to the Web
     right out of the box.
 
+- name: Pololu
+  visible: true
+  short: pololu
+  logo: pololu.png
+  url: http://www.pololu.com/
+  event:
+  description: >
+    Pololu is an electronics manufacturer and online retailer serving
+    education, maker, and professional engineering industries with products
+    ranging from sensors and motion control electronics to motors and wheels to
+    complete robots. Pololu strives to offer well-engineered, quality products
+    that enable customers to take their own projects from idea to reality.
+
 - name: Spark Devices
   visible: true
   short: sparkdevices
