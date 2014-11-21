@@ -124,6 +124,18 @@
     Inc., an Open Source Hardware company founded in January 2011 and
     headquartered in Loveland, Colorado, USA.
 
+- name: Intel Services
+  visible: true
+  short: intelservices
+  logo: mashery.png
+  url: http://www.mashery.com/
+  event:
+  description: >
+    Intel® Services delivers
+    [API management](http://www.mashery.com/api-management) and software
+    platforms for the connections that share information and intelligence
+    across people and devices, which result in business-changing opportunities.
+
 - name: Pebble
   visible: true
   short: pebble
