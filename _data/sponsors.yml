@@ -62,6 +62,23 @@
     collaboration and code sharing on any device. Start collaborating today—open
     source project hosting is free!
 
+- name: Highway1
+  visible: true
+  short: highway1
+  logo: highway1.png
+  url: http://highway1.io/
+  event:
+  description: >
+    Highway 1 is a San Francisco based hardware accelerator, with a focus on
+    helping startups make the difficult transition from prototype to
+    manufacture-ready design. Highway1 offers $50,000 in seed capital,
+    engineering support, prototyping facilities and a 10-day trip to Shenzhen
+    in exchange for an equity stake of 4-7%. During the 16 week program teams
+    use prototyping to explore and eliminate both technical and product risks.
+    Frequently, small batches of products are hand-built and shipped to early
+    customers. This process of refinement and risk elimination is especially
+    critical for physical hardware products.
+
 - name: Vistaprint
   visible: true
   short: vistaprint
@@ -106,6 +123,18 @@
     printers to get the job done. LulzBot is a product line of Aleph Objects,
     Inc., an Open Source Hardware company founded in January 2011 and
     headquartered in Loveland, Colorado, USA.
+
+- name: Intel Services
+  visible: true
+  short: intelservices
+  logo: mashery.png
+  url: http://www.mashery.com/
+  event:
+  description: >
+    Intel® Services delivers
+    [API management](http://www.mashery.com/api-management) and software
+    platforms for the connections that share information and intelligence
+    across people and devices, which result in business-changing opportunities.
 
 - name: Pebble
   visible: true
