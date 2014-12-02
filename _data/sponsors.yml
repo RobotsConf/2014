@@ -243,3 +243,12 @@
     lets IoT programmers connect devices to a Library of 2000+ processes for
     100+ APIs, databases, and code utilities. We’re making connected devices
     behave more intelligently and flexibly—visit Temboo.com/iot to learn more!
+
+- name: Dizmo
+  visible: true
+  short: dizmo
+  logo: dizmo.png
+  url: http://www.dizmo.com
+  event:
+  description: >
+    Dizmo is the Interface of Things. Our software platform turns any digital surface into an immersive platform. Dizmo seamlessly connects digital and physical objects in the home and at the workplace. It supports orchestration and collaboration in an unparalleled way enabling any data to instantaneously be accessed on any surface, anywhere and made interactive. Dizmo brings fantasies as seen in Sci-fi movies such as Iron Man and Minority Report, as well as in Corning’s video ‘A day made of glass’ to reality, revolutionising traditional methods of interacting with digital content and objects.
