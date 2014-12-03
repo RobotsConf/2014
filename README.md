@@ -3,7 +3,7 @@ RobotsConf
 [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/RobotsConf/2014?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 
-Join us for the world's first RobotsConf - December 6 and 7, 2013 at Amelia Island, FL
+Join us for the return of RobotsConf - December 6 and 7, 2014 at Amelia Island, FL
 
 RobotsConf will be the first ever Software Developer's Hardware Conference!
 
