@@ -5,6 +5,8 @@ RobotsConf
 
 Join us for the world's first RobotsConf - December 6 and 7, 2013 at Amelia Island, FL
 
+Please note all hardware discussion must be Creative Commons Attribute-Share Alike and discussion of projects implicitly releases all participants and viewers of legal concerns and ramifications.
+
 RobotsConf will be the first ever Software Developer's Hardware Conference!
 
 [http://www.robotsconf.com](http://www.robotsconf.com) : Follow [@RobotsConf](https://twitter.com/robotsconf) for details
