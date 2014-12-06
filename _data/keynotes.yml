@@ -16,14 +16,14 @@
 
 - firstname: Brady
   lastname: Forrest
-  visible: false
+  visible: true
   category: speaker
   smurl: http://twitter.com/brady
   smtype: twitter
   smhandle: "brady"
-  title: From Idea to Product
+  title: There is no China button
   body: >
-
+    Making something is easy; making something that can be made is hard – very hard" (quote Sonny Vu). Hardware takes longer, costs a lot and requires more people. It can be perilous for a company, but the rewards can be great. This talk outlines some of the pitfalls (mfg, pricing, retail) that have befallen hardware companies in the past – and still do today.
   bio: >
     Brady is Vice President at Highway1, PCH’s incubator program. A prolific speaker and maker on the geek scene, Brady can be found at speaking engagements around the world, inventing new forms of transportation at Burning Man, or creating in the Highway1 San Francisco workshop. Additionally, Brady writes for O’Reilly Radar, tracking changes in technology. Brady is the founder of Ignite, a geek event which has spread to over a hundred cities worldwide.
 
